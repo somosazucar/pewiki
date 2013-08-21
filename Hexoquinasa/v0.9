@@ -1,0 +1,144 @@
+La serie 0.x de Hexoquinasa se basa en el Sistema Operativo de OLPC versión 11.3.x con Sugar 0.94.
+
+= "BETA2" =
+
+Lanzada el 26 de Abril de 2013.
+
+* Artículo original http://somosazucar.org/2013/04/26/hexoquinasa-entrega-version-0-9-beta2/
+
+== ANEXO TÉCNICO 001-2013 ==
+
+# Se incluyeron los siguientes '''ajustes solicitados''' por los grupos de testeo:
+## Se activó Ctrl-Alt-Borrar que reinicia Sugar otra vez.
+## El vecindario ya no se llena de otros usuarios pues el servidor de colaboración ya no apunta al servidor público de Sugarlabs. Queda pendiente para el equipo técnico definir el servidor de colaboración.
+## Se quitaron Etoys y GCompris, liberando aproximadamente 150MB.
+## Se realizaron modificaciones gráficas en la Red Azúcar.
+# Se incluyeron las siguientes '''características nuevas''' según cronograma de desarrollo coordinado y ejecutado con los equipos Upstream y Downstream:
+## El sistema de instalación desde la Red Azúcar ahora soporta instalación de dependencias de paquetes.
+## El motor de renderizado de HTML de la Red Azúcar se ha migrado de Webkit1 a Gecko (Firefox) para mejorar el rendimiento y la estabilidad.
+## Se habilitó a la Red Azúcar para que la XO se conecte automáticamente con el nodo central cuando detecta una conexión activa a Internet.
+## Así mismo, una vez la Red Azúcar se conecta, la sincronización de recursos -Offline- de los usuarios se ejecuta de forma completamente automática.
+## Se ha incluido la actividad Agenda de Contactos.
+## El manual de instalación ha sido actualizado según los puntos descritos anteriormente (documento adjunto).
+# Los siguientes ajustes '''solicitados''' por los grupos de testeo '''no''' han sido '''incluidos''' (con  debida justificación):
+## El comportamiento “tap-to-click” del mouse (clic con el dedo en el pad), de acuerdo a nuestra experiencia y la de otros voluntarios en terreno, no es recomendable puesto que esta función resultaba confusa para la mayoría de los usuarios por lo que los desarrolladores Upstream decidieron removerla (Ver http://www.mail-archive.com/devel@lists.laptop.org/msg20770.html).
+## La opción Documentos en el Diario de Sugar es una funcionalidad estándar y cumple el propósito de facilitar el intercambio de archivos entre el Diario y el sistema de archivos, por lo que se ha decidido no removerla. Actualmente es usada por la Red Azúcar para acceder a los artefactos descargados.
+#  En esta versión se conocen los siguientes detalles que '''restan por solucionar''':
+## La colaboración entre actividades en el vecindario no ha sido testeada.
+## Tam-Tam Edit y Física presentan un reporte de fallo al salir.
+## Hablar ha sido omitida temporalmente pues su instalación está presentando un problema de dependencias al momento de la creación de la imagen.
+## Algunas traducciones están aún pendientes (nombres de actividades en la Red Azúcar).
+
+== Paquetes instalados ==
+
+Provienen del repositorio estable SweetsDistribution:0.94:SugarNetwork
+
+XO1
+-----
+  sugar-base-0.94.0-1.fc14.olpc.i686
+  sweets-sugar-base-0.94.0-1.1.i386
+  sweets-sugar-artwork-0.94.0-1.1.i386
+  sugar-network-hub-0.7-1.1.noarch
+  sweets-sugar-toolkit-0.94.1-2.2.i386
+  sweets-sugar-datastore-0.94.0-1.2.i386
+  sugar-datastore-0.94.0-1.fc14.olpc.i686
+  sugar-plugin-telepathy-0.5-2.1.noarch
+  sugar-plugin-proxy-0.5-1.1.noarch
+  sugar-presence-service-0.90.2-1.fc14.noarch
+  sugar-plugin-sn-0.8-7.1.noarch
+  sugar-toolkit-0.94.0-1.fc14.olpc.i686
+  sweets-sugar-presence-service-0.88.0-1.2.noarch
+  sugar-0.94.1-3.fc14.olpc.noarch
+  sugar-network-webui-0.9-8.1.noarch
+  sugar-network-0.8-7.1.noarch
+  sweets-sugar-0.94.1-3.1.noarch
+  sugar-artwork-0.94.0-1.fc14.olpc.i686
+  olpc-firmware-q2f11-1.unsigned.noarch
+
+  Actividades
+  -----------
+    Browse-129
+    Calculate-40
+    Chart-6
+    Chat-77
+    Contacts-3
+    ICanRead-3
+    IknowAmerica-6
+    ImageViewer-21
+    Implode-12
+    JAMEdit-1
+    JigsawPuzzle-10
+    Jukebox_1-26
+    Jukebox-26
+    Labyrinth-14
+    Log-29
+    Measure-42
+    Memorize-43
+    Paint-43
+    Physics-10
+    Pippy-49
+    Read-92
+    Record-93
+    Scratch-16
+    TamTamMini-66
+    Terminal-40
+    TerronesWeeper-2
+    TurtleArt-160
+    TurtleBots-19
+    VncLauncher-6
+    Write-79 
+
+XO1.5
+-----
+  sugar-plugin-proxy-0.5-1.1.noarch
+  sugar-toolkit-0.94.0-1.fc14.olpc.i686
+  sweets-sugar-presence-service-0.88.0-1.2.noarch
+  sugar-network-0.8-7.1.noarch
+  sugar-network-hub-0.7-2.1.noarch
+  sugar-plugin-telepathy-0.5-2.1.noarch
+  sugar-datastore-0.94.0-1.fc14.olpc.i686
+  sugar-artwork-0.94.0-1.fc14.olpc.i686
+  sugar-presence-service-0.90.2-1.fc14.noarch
+  sugar-plugin-sn-0.8-7.1.noarch
+  sweets-sugar-artwork-0.94.0-1.1.i386
+  sweets-sugar-toolkit-0.94.1-2.2.i386
+  sweets-sugar-datastore-0.94.0-1.2.i386
+  sugar-0.94.1-3.fc14.olpc.noarch
+  sugar-base-0.94.0-1.fc14.olpc.i686
+  sweets-sugar-base-0.94.0-1.1.i386
+  sweets-sugar-0.94.1-3.1.noarch
+  sugar-network-webui-0.9-8.1.noarch
+  olpc-firmware-q3c06-1.unsigned.noarch
+
+  Actividades
+  -----------
+    Browse-129 
+    Calculate-40 
+    Chart-6 
+    Chat-77 
+    Contacts-3 
+    ICanRead-3 
+    IknowAmerica-6 
+    ImageViewer-21 
+    Implode-12 
+    JAMEdit-1 
+    JigsawPuzzle-10 
+    Jukebox_1-26 
+    Jukebox-26 
+    Labyrinth-14 
+    Log-29 
+    Measure-42 
+    Memorize-43 
+    Paint-43 
+    Physics-10 
+    Pippy-49 
+    Read-92 
+    Record-93 
+    Scratch-16 
+    TamTamMini-66 
+    Terminal-40 
+    TerronesWeeper-2 
+    TurtleArt-160 
+    TurtleBots-19 
+    VncLauncher-6 
+    Write-79

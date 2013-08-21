@@ -1,0 +1,43 @@
+__NOTOC__
+A continuación delineamos la metodología desarrollada para la canalización de recursos hacia los miembros y proyectos de la comunidad.
+
+El procedimiento utilizado se articula en la asignación y reembolso de fondos y contiene las siguientes instancias:
+
+== Proceso ==
+
+=== 01 Solicitud ===
+
+Se solicita formalmente la aprobación de las partidas presupuestarias requeridas (por ejemplo beneficios, transportes, viáticos, compra de materiales, alojamiento, etc), presentando los objetivos esperados y el plan de trabajo de la(s) actividad(es) a ejecutar.
+
+=== 02 Aprobación ===
+
+La Junta de Supervisión analiza la relevancia, coherencia y factibilidad de la solicitud, teniendo en cuenta:
+# el Flujo de Caja disponible
+# la pertinencia de la solicitud
+# el comportamiento contable previo del solicitante.
+
+=== 03 Ejecución ===
+
+Una vez aprobadas formalmente las partidas presupuestarias y se ha fijado el rango de fechas esperado para los reembolsos, el solicitante puede proceder a ejecutar las actividades, cuidando siempre de guardar el comprobante contable físico de cada gasto. Estos soportes deben ser remitidos adjuntos a la solicitud del reembolso.
+
+== Requisitos ==
+
+Antes de realizar una Solicitud por favor tenga en cuenta que:
+
+=== 01 Membresía ===
+
+Usted debe ser miembro activo de la comunidad Sugar Labs Perú.
+
+=== 02 Paz y Salvo ===
+
+Usted debe estar a Paz y Salvo en la entrega de los soportes contables de reembolsos previos.
+
+=== 03 Proyecto Activo ===
+
+La solicitud debe estar asociada a un proyecto activo que esté bajo Supervisión de la Junta de Supervisión de Sugar Labs Perú.
+
+== Solicitudes ==
+
+Puede iniciar el proceso enviando [http://bugs.sugarlabs.org/newticket?component=Sugar%20Labs%20Peru%20funding%20request creando un ticket]. Este ticket llegará a la lista de correo y será procesado por la Junta de Supervisión.
+
+Puedes consultar [http://bugs.sugarlabs.org/query?status=accepted&status=assigned&status=new&status=reopened&order=priority&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&component=Sugar%20Labs%20Peru%20funding%20request todas las solicitudes existentes].

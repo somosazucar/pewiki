@@ -1,0 +1,60 @@
+== Gobierno SomosAZUCAR.org - Sugar Labs Perú ==
+
+Este es un documento de trabajo que no ha sido ratificado aún, basado en el modelo de [http://co.sugarlabs.org/go/Gobierno La fundación Sugar Labs Colombia]. El trabajo que hace falta ahora es comparar con el [http://wiki.sugarlabs.org/go/Sugar_Labs/Governance modelo de Sugar Labs Global] y formalizar la membresía y algunos roles.
+
+===Laboratorios Azúcar Perú ===
+
+Laboratorios Azúcar Perú es fundación sin animo de lucro.
+
+Los criterios de gobierno  deben ser mantenidos por la fundación y asegurarse de el éxito y la estabilidad a largo plazo de Sugar en Perú. 
+
+'''acá irán mas detalles acerca de la fundación'''
+
+El siguiente es el modelo de gobierno derivado del modelo usado por la fundación Gnome  (vea [http://foundation.gnome.org/about/ gnome.org/about]).
+
+===Junta de Supervision===
+
+El cuerpo central de administración  se llama junta de supervision.
+
+Sugar Labs Perú sera gobernada por la junta de supervision  que consistirá del numero de personas que se encuentra dentro de nuestro core (4) miembros, que se elegirán anualmente por la comunidad de Sugar y los miembros de Laboratorios Azúcar Perú, esta elección estará dentro de los miembros de la actual junta y los miembros actuales. La junta se reunirá al menos una vez cada tres (3) meses para discutir aspectos  que pertenezcan  a las actividades regulares de Laboratorios azúcar Perú y sus proyectos (probablemente estas minutas serán colgadas en este wiki).
+
+Los miembros de la junta podrán ser removidos en cualquier ocasión por una mayoría de votación de los miembros de la comunidad. Cuando un miembro de la junto renuncie o sea removido, lo miembros de la comunidad elegirán un reemplazo que este dentro de los miembros de Laboratorios de Azúcar Perú para que sirva dentro de la junta.
+
+
+====Paneles de Decisión====
+
+El rol de la junta de supervision es manejar los asuntos diarios de Laboratorios de Azúcar Perú y ayudar a la comunidad a construir consenso. En la rara ocasión en la cual no se pueda encontrar un consenso general, la junta se responsabilizara en hacer un panel de Decisión. La junta sera responsable en determinar en que momento se necesitara un panel de decisión y en seleccionar los miembros de este. Los miembros de la junta no podrán estar dentro de este panel de decisión. Un panel de decisión solicitara consejo de la comunidad, discutirán (en privado si lo consideran necesario), alcanzaran una conclusión internamente y producirán un reporte documentando su conclusión. (Cualquiera podrá dar consejo al panel de decision.) La junta revisara y ratificara el reporte del panel de decisión.
+
+===Junta de Consejo===
+
+La junta de consejo estar conformada pro organizaciones y compañías que apoyen Laboratorios de azúcar Perú. La junta de consejo es una autoridad sin decisión pero proporciona a sus miembros un vehículo para comunicarse con la junta de supervision y ayuda a los directores guiar la dirección general de Sugar en Perú y el proyecto laboratorios de azucar Perú. La junta de consejo elegirá hasta tres (3) miembros que serán asistentes sin voto a las reuniones de la junta de supervision, La junta de consejo se reunirá dos veces al año.
+
+La junta de consejo consiste de los representantes de los '''siguientes''' miembros de la fundación laboratorios de Azúcar Perú, corporaciones y proyectos.
+
+Las compañías miembros de la junta de consejo pagaran un cargo anual que ayude a financiar las operaciones del proyecto Laboratorios azúcar Perú.
+
+===Comités===
+
+La junta de supervision es responsable en establecer los comites necesarios.
+
+Cada comité incluira un miembro de la junta de supervision sin voto), quien servirá como secretario y de tres (3) a (5) miembros adicionales (inicialmente elegidos por la junta de supervision y subsecuente-mente elegidos) de la comunidad y/o de los miembros.
+
+Grupos Especiales de Interés (GEI) pueden ser establecidos por cualquier miembro. Pueden ser formados al rededor de cualquier tema y si muestran ser útiles, pueden ser designados como comités oficiales.
+
+Los comités de Consejo proporcionaran discusión antes de las reuniones de la junta de supervision  y podrán ser invitados para que elijan un representante en dichas reuniones.
+
+===Membresia Laboratorios Azúcar Perú===
+
+Los posible miembros de Laboratorios de Azúcar Perú consisten de una muestra de todos los contribuyentes al proyecto Laboratorios Azúcar Perú. Los miembros pueden postularse para la junta de supervision, votan en las elecciones para la junta de supervision, y sugieren '''referendos'''.
+
+====Condiciones para la Membresia====
+#Cumplir el [[Código de Conducta]]
+#Seguir esta condición: Cualquier contribuyente "significativo y sostenido" a Laboratorios Azúcar Perú es elegible para membresia. Generalmente un miembro posible debe haber contribuido a una mejora no trivial a la mejora del proyecto laboratorios azúcar Perú o a su actividad. Las contribuciones pueden ser código, documentación, traducciones, mantenimiento de los recursos del proyecto, ''realizar un despliegue de Sugar'', o otras actividades no triviales que beneficien a Laboratorios de Azúcar Perú. La elegibilidad para la membresia es una determinación individual:aunque las contribuciones hechas en el curso de un empleo serán consideradas, ellas estarán generalmente adscritas a los individuos involucrados, en vez de ser acumuladas en todos los empleados de la corporación "contribuyente". El comité de membresia y elecciones revisara las aplicaciones de membresia  (Por favor aplique enviando un mail a ''membresia at co.sugarlabs.org'').
+
+El comité de membresia y elecciones revisara la lista de membresias para tenerla actualizada, una vez cada año.
+
+===Referendos Laboratorios Azúcar===
+
+A veces un inconveniente puede necesitar del consenso unido de la comunidad. Cualquier miembro de la fundación Laboratorios Azúcar Perú puede sugerir un referendum y debe ser apoyado por el 10% de todos los miembros. EL proceso de referendum  es supervisado por el comité de elecciones y membresia, que puede ser contactado en elecciones@co.sugarlabs.org. 
+
+El 75% de los votos de todos los miembros puede anular una decisión del a Junta de supervision.
