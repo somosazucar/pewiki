@@ -1,0 +1,90 @@
+== Dibujando con un circulo ==
+
+Archivo <code>juego.py</code>, para ejecutar con comando <code>python juego.py</code> en Terminal:
+
+<code><pre>
+#!/usr/bin/env python
+
+import pygame
+import sys
+
+pygame.init()
+
+modes = pygame.display.list_modes()
+
+print modes
+
+s = pygame.display.set_mode(modes[0], pygame.FULLSCREEN)
+
+x = 100
+y = 200
+
+while True:
+    for e in pygame.event.get():
+        if e.type == pygame.QUIT:
+            sys.exit(0)
+        if e.type == pygame.KEYDOWN:
+            if e.key == pygame.K_ESCAPE:
+                sys.exit(0)
+
+    if pygame.key.get_pressed()[pygame.K_RIGHT]:
+        x = x + 1
+    if pygame.key.get_pressed()[pygame.K_LEFT]:
+        x = x - 1
+    if pygame.key.get_pressed()[pygame.K_UP]:
+        y = y - 1
+    if pygame.key.get_pressed()[pygame.K_DOWN]:
+        y = y + 1
+
+    pygame.draw.circle(s, (255, 255, 0), (x, y), 50)
+
+    pygame.display.update()
+</pre></code>
+
+== Una serpiente que mueve ==
+
+<code><pre>
+#!/usr/bin/env python
+
+import pygame
+import sys
+import math
+
+pygame.init()
+
+modes = pygame.display.list_modes()
+
+print modes
+
+s = pygame.display.set_mode(modes[0], pygame.FULLSCREEN)
+
+x = 100
+y = 200
+a = 0
+worm = []
+
+while True:
+    for e in pygame.event.get():
+        if e.type == pygame.QUIT:
+            sys.exit(0)
+        if e.type == pygame.KEYDOWN:
+            if e.key == pygame.K_ESCAPE:
+                sys.exit(0)
+
+    if len(worm) > 100:
+        pygame.draw.circle(s, (0, 0, 0), worm.pop(), 50)
+
+    if pygame.key.get_pressed()[pygame.K_RIGHT]:
+        a = a + 1
+    if pygame.key.get_pressed()[pygame.K_LEFT]:
+        a = a - 1
+
+    x = x + math.cos(a/180.0*math.pi)
+    y = y + math.sin(a/180.0*math.pi)
+    
+    pygame.draw.circle(s, (255, 255, 0), (x, y), 50)
+
+    worm.insert(0, (x, y))
+
+    pygame.display.update()
+</pre></code>
