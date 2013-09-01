@@ -1,0 +1,16 @@
+== Montar cliente == 
+
+Ventajas de montar un cliente<br>
+Estarás logueado en la Red Azucar<br>
+Y podrás desarrollar en ella.<br>
+
+Necesario:
+
+Clonar los siguientes repositorios en su computadora:
+<br>
+https://git.sugarlabs.org/network/network<br>
+https://git.sugarlabs.org/network/webui<br>
+https://git.sugarlabs.org/network/active-document<br>
+ git clone git://git.sugarlabs.org/network/network.git
+ git clone git://git.sugarlabs.org/network/webui.git
+ git clone git://git.sugarlabs.org/network/active-document.git
