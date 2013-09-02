@@ -1,0 +1,428 @@
+= Markup2
+
+Hatta markup implements a large subset of the
+[[http://www.wikicreole.org/|Wiki Creole 1.0 standard]]. [[#1|[1] ]]
+The Hatta variation is described on //this// page
+and [[MarkupSummary|summarized elsewhere]].
+
+Hint: The {{{Edit}}} button can be used to discover
+how markup was used to create any editable page.
+
+Sections:
+[[#heading|Heading]],
+[[#emphasis|Emphasis]],
+[[#punctuation|Punctuation]],
+[[#paragraph|Paragraph]],
+[[#list|Lists]],
+[[#preformat|Preformat]],
+[[#syntax|Syntax]],
+[[#link|Links]],
+[[#image|Images]],
+[[#table|Tables]],
+[[#math|Math]],
+[[#comment|Comment]],
+
+----
+{{#heading}}
+== Heading
+
+Headings have one or more '=', beginning in column 1.
+
+Hatta forces the level 1 heading to the page name.
+It can't be explicitly controlled (yet?).
+
+{{{#!text
+= Huge Heading (html h1)
+== Large Heading (html h2, nominal)
+=== Medium Heading (html h3, sub-sub-level)
+==== Small Heading (html h4, sub-sub-sub-level)
+===== Tiny Heading (html h5, minimum level supported)
+}}}
+
+= Huge Heading (html h1)
+== Large Heading (html h2, nominal)
+=== Medium Heading (html h3, sub-sub-level)
+==== Small Heading (html h4, sub-sub-sub-level)
+===== Tiny Heading (html h5, minimum level supported)
+
+----
+{{#emphasis}} {{#test}}
+== Emphasis:
+
+Horizontal rules have four or more '-', beginning in column 1.
+
+Underline and strike through emphasis is not supported (yet?).
+
+{{{#!text
+Plain text.
+
+##Monospace markup##
+
+//Italic markup//
+
+**Bold markup**
+
+**//Bold italic markup//**
+
+//**Italic bold markup**//
+
+----
+Horizontal rule.
+}}}
+
+Plain text.
+
+##Monospace markup##
+
+//Italic markup//
+
+**Bold markup**
+
+**//Bold italic markup//**
+
+//**Italic bold markup**//
+
+----
+Horizontal rule.
+
+----
+{{#punctuation}}
+== Punctuation
+
+|=Markup          |=Results   |=Comment |
+|{{{Go...home}}}  |Go...home  |&hellip; |
+|{{{Go--home}}}   |Go--home   |&ndash;  |
+|{{{Go---home}}}  |Go---home  |&mdash;  |
+|{{{Go----home}}} |Go----home |
+|{{{Go~home}}}    |Go~home    |&nbsp;   |
+|{{{Go\~home}}}   |Go\~home   |"~"      |
+|{{{Go~~home}}}   |Go~~home   |&sim;    |
+|{{{Go(C)home}}}  |Go(C)home  |&copy;   |
+|{{{Go-->home}}}  |Go-->home  |&rarr;   |
+|{{{Go<--home}}}  |Go<--home  |&larr;   |
+|{{{Go(R)home}}}  |Go(R)home  |&reg;    |
+|{{{Go(TM)home}}} |Go(TM)home |&trade;  |
+|{{{Go%%home}}}   |Go%%home   |&permil; |
+|{{{Go``home}}}   |Go``home   |&ldquo;  |
+|{{{Go''home}}}   |Go''home   |&rdquo;  |
+|{{{Go,,home}}}   |Go,,home   |&bdquo;  |
+
+----
+{{#paragraph}}
+== Paragraph:
+
+{{{#!text
+Adjoining lines are concatenated and
+long lines are wrapped when rendered.
+Adjoining sentences become paragraphs.
+}}}
+
+Adjoining lines are concatenated and
+long lines are wrapped when rendered.
+Adjoining sentences become paragraphs.
+
+{{{#!text
+Force line breaks with\\two back slashes.
+}}}
+
+Force line breaks with\\two back slashes.
+
+----
+{{#list}}
+== Lists
+
+List item lines begin with one or more '*',
+followed by white space and text for the item.
+Sub-lists are controlled by the number of '*', not indentation.
+Indents are optional before the initial '*', but not recommended.
+If used, two blanks per sub-level are recommended for consistency.
+
+Multi-line list items aren't supported (yet?).
+
+{{{#!text
+Bullet list:
+* First item
+* Second item
+** Sub-item
+*** Sub-sub-item
+* Third item
+  ** Sub-item (leading white space is ignored)
+    *** Sub-sub-item (space improves readability)
+}}}
+
+Bullet list:
+* First item
+* Second item
+** Sub-item
+*** Sub-sub-item
+* Third item
+  ** Sub-item (leading white space is ignored)
+    *** Sub-sub-item (space improves readability)
+
+Numbered (ordered) lists have //limited// support, but only if
+[[http://hatta-wiki.org/+history/Ordered%20lists/4:5|Ben's patch]]
+is applied (as revealed by this example).
+Even with the patch, mixing unordered and ordered will **scramble** list
+rendering and worse, indentation of all subsequent text is **shifted**.
+
+{{{#!text
+Ordered list:
+# First item
+# Second item
+## Sub-item
+### Sub-sub-item
+# Third item
+  ## Sub-item
+    ### Sub-sub-item
+}}}
+
+Ordered list:
+# First item
+# Second item
+## Sub-item
+### Sub-sub-item
+# Third item
+  ## Sub-item
+    ### Sub-sub-item
+
+//BROKEN// (mixing ordered and unordered list items):
+{{{#!text
+Mixed list 1:
+* First item
+* Second item
+## Sub-item
+*** Sub-sub-item
+* Third item
+  ** Sub-item
+    *** Sub-sub-item
+
+Mixed list 2:
+# First item
+# Second item
+** Sub-item
+### Sub-sub-item
+# Third item
+  ## Sub-item
+    ### Sub-sub-item
+}}}
+
+----
+{{#preformat}}
+== Preformatted
+
+{{{#!text
+    Lines that begin with white space
+        are 'preformatted' (not joined),
+    unless they are '* items' in lists.
+}}}
+
+    Lines that begin with white space
+        are 'preformatted' (not joined),
+    unless they are '* items' in lists.
+
+{{{#!text
+> Joe: Block quote lines begin with one or more '>'.
+>> Bob: When are they typically used?
+>>> Joe: Conversation highlights mostly.
+}}}
+
+> Joe: Block quote lines begin with one or more '>'.
+>> Bob: When are they typically used?
+>>> Joe: Conversation highlights mostly.
+
+{{{#!text
+Inline **text** within {{{triple braces}}} use //monospace// font.
+All markup {{{**is** //ignored//}}} within the braces.
+}}}
+
+Inline **text** within {{{triple braces}}} use //monospace// font.
+All markup {{{**is** //ignored//}}} within the braces.
+
+{{{#!text
+{{{
+Blocks of text delimited by lines that begin and end
+with triple braces are preformatted and monospace.
+
+All markup **is** //ignored// within the block.
+Note: this "} }}" is a kludge for "}}}".
+} }}
+}}}
+
+{{{
+Blocks of text delimited by lines that begin and end
+with triple braces are preformatted and monospace.
+
+All markup **is** //ignored// within the block.
+Note: this "} }}" is a kludge for "}}}".
+}}}
+
+{{{#!text
+{{{#!text
+Syntax highlighting can be requested with
+the opening triple braces, i.e. "#!text".
+Many languages and file formats are supported by
+http://pygments.org/docs/lexers/#special-lexers
+} }}
+}}}
+\\
+{{{#!text
+Syntax highlighting can be requested with
+the opening triple braces, i.e. "#!text".
+Many languages and file formats are supported by
+http://pygments.org/docs/lexers/#special-lexers
+}}}
+\\
+{{{#!text
+{{{#!c
+/* "Hello World" written in C */
+#include <stdio.h>
+int main(int argc, char[]* argv)
+{ printf("Hello World\n"); return 0; }
+} }}
+}}}
+\\
+{{{#!c
+/* "Hello World" written in C */
+#include <stdio.h>
+int main(int argc, char[]* argv)
+{ printf("Hello World\n"); return 0; }
+}}}
+
+----
+{{#link}}
+== Links
+
+Page names may be prefixed by a path, but only if
+[[http://hatta-wiki.org/|Randy's docs tree patch]] is applied.
+Paths must be relative to the directory configured for '{{{docs}}}'.
+They may //not// contain '{{{..}}}' components for security reasons.
+
+Note: Putting symbolic links in Hatta's page directory may lead to unpredictable errors. Don't do that.
+
+{{{#!text
+Link syntax:
+* [[Markup2]]
+* [[Markup2|Markup details]]
+* [[Markup2#emphasis]]
+* [[Markup2#emphasis|Markup emphasis]]
+* [[path/filename.hat]] 
+* [[chapter_1/section_2#par3]] 
+* [[#test]]
+* [[#test|On page link]]
+* [[#5|[5] ]] Footnote reference
+* http://sheep.art.pl
+* [[http://sheep.art.pl]]
+* [[http://sheep.art.pl|Sheep]]
+* [[Home|{{development.png}}]]
+* MarkupSummary (CamelCase enabled)
+
+{{#5}} [5] Footnote anchor.
+}}}
+
+Link syntax:
+* [[Markup2]]
+* [[Markup2|Markup details]]
+* [[Markup2#emphasis]]
+* [[Markup2#emphasis|Markup emphasis]]
+* [[path/filename.hat]] 
+* [[chapter_1/section_2#par3]] 
+* [[#test]]
+* [[#test|On page link]]
+* [[#5|[5] ]] Footnote reference
+* http://sheep.art.pl
+* [[http://sheep.art.pl]]
+* [[http://sheep.art.pl|Sheep]]
+* [[Home|{{development.png}}]]
+* MarkupSummary (CamelCase enabled)
+
+{{#5}} [5] Footnote anchor.
+
+----
+{{#image}}
+== Images
+
+{{{#!text
+Three logo variations
+{{development.png}}
+{{development.png|Logo}}
+[[http://hatta-wiki.org|{{development.png}}]]
+rendered inline
+----
+Inline {{development.png}} logo.
+----
+**{{development.png}}** Left float logo using {{{**{{development.png}}**}}} (bold emphasis).
+----
+//{{development.png}}// Right float logo using {{{//{{development.png}}//}}} (italic emphasis).
+}}}
+
+Three logo variations
+{{development.png}}
+{{development.png|Logo}}
+[[http://hatta-wiki.org|{{development.png}}]]
+rendered inline.
+----
+**{{development.png}}** Left float logo using {{{**{{development.png}}**}}} (bold emphasis).
+----
+//{{development.png}}// Right float logo using {{{//{{development.png}}//}}} (italic emphasis).
+----
+Smiley images :) ;) :( :P :D can be inserted with
+{{{:)}}}, {{{;)}}}, {{{:(}}}, {{{:P}}} and {{{:D}}}.
+
+----
+{{#table}}
+== Tables
+
+//Don't// use tables for layout!
+
+Pending features (wish list?):
+* Table alignment within page
+* Cell alignment within table
+* Row and column spans
+* Lists within cells
+
+{{{#!text
+|Headers |=Column A|=Column B|=Column C|
+|=Row 1  |Cell A1  |Cell B1  |Cell C1  |
+|=Row 2  |Cell A2  |Cell B2  |
+|=Row 3  |Cell A3  |Cell B3  |Cell C3  |
+}}}
+
+|Headers |=Column A|=Column B|=Column C|
+|=Row 1  |Cell A1  |Cell B1  |Cell C1  |
+|=Row 2  |Cell A2  |Cell B2  |
+|=Row 3  |Cell A3  |Cell B3  |Cell C3  |
+
+{{{#!text
+|=Line Hdr\\Break Hdr|=Column //A//|Italic //B//|=Column C|
+|Row 1 |Bold **A1**|Italic //B1//|Cell C1|
+|=Row 2|Line A2\\Break A2|  |Link [[#list|C2]]|
+|=Row 3|{{{A3= Bar}}}    |Bold **B3**|
+}}}
+
+|=Line Hdr\\Break Hdr|=Column //A//|Italic //B//|=Column C|
+|Row 1 |Bold **A1**|Italic //B1//|Cell C1|
+|=Row 2|Line A2\\Break A2|  |Link [[#list|C2]]|
+|=Row 3|{{{A3= Bar}}}    |Bold **B3**|
+
+----
+{{#math}}
+== Math
+
+See [[http://hatta-wiki.org/Math]]
+
+----
+{{#comment}}
+== Comment
+
+Comments are not supported (yet?).
+* Markup-only comments... No
+* HTML comments... No
+
+----
+
+{{#1}} [1]
+Hatta support is weak or missing for a few features.
+The [[http://hatta-wiki.org/Usage|Usage]] and
+[[http://hatta-wiki.org/+history|Recent Changes]] pages at
+http://hatta-wiki.org/ should be reviewed periodically,
+because more functionality is planned.
