@@ -1,0 +1,38 @@
+{{Note/important|Versión archivada| Esta versión está archivada como histórico. Profavor use siempre la [[Proyecto_Piloto_Hexoquinasa/Instalar|última versión]].}}
+
+{{Note/important|ADVERTENCIA|HEXOQUINASA y la RED AZÚCAR son proyectos de SOFTWARE LIBRE los cuales están en su fase de desarrollo. Este software es experimental y usted por participar forma parte de un PROYECTO PILOTO.
+
+Por favor lea detalladamente los [[Red_Azúcar#Términos de Uso|Términos de Uso]].}}
+
+== Descarga ==
+
+Puedes descargar la versión actual en desarrollo: 0.4 ALFA para laptops XO-1.5 (2GB)<br>''(descargar ambos archivos)''<br>[http://people.sugarlabs.org/icarito/xo1.5/hxp37.zd hxp37.zd]<br>[http://people.sugarlabs.org/icarito/xo1.5/fs.zip fs.zip]
+
+== Instalar ==
+
+Siga las instrucciones para instalar:
+
+=== Imagen XO-1.5 ===
+
+* Guarde el archivo <code>'''''hxp37''.zd'''</code> al directorio raiz de una memoria USB
+* Guarde el archivo <code>'''''fs''.zip'''</code> al directorio raiz de una memoria USB
+
+* Apague la XO. 
+* Inserte su memoria USB.
+* Encienda la XO y mantenga presionadas las cuatro teclas de juego ubicadas al costado derecho inferior de la pantalla.
+* La XO procederá a instalar HEXOQUINASA.
+* La XO se reiniciará y preguntará su nombre y color.
+
+=== Paquetes ===
+
+Para PC o si deseas evitar formatear la XO, puedes instalar paquetes desde los repositorios [http://wiki.sugarlabs.org/go/Community/Distributions/Sweets_Distribution Sweets Distribution] los cuales están disponibles para [http://wiki.sugarlabs.org/go/Platform_Team/Harmonic_Distribution/Supported_platforms#Map algunas plataformas].
+
+* [http://wiki.sugarlabs.org/go/Community/Distributions/Sweets_Distribution#Installation Instala] el paquete <code>'''sweets-desktop'''</code> desde el repositorio de Sweets <code>'''Factory'''</code>;
+* Sigue las [http://wiki.sugarlabs.org/go/Community/Distributions/Sweets_Distribution#Usage instrucciones de uso] para ejecutar Sugar;
+* [http://wiki.sugarlabs.org/go/Platform_Team/Sweets_Distribution/Factory/Features#Sugar_Network_integration Encienda] la integración RED AZÚCAR en el entorno Sugar "Mis Ajustes".
+
+== Por resolver ==
+
+=== Instalación de actividades .xo ===
+
+* Por ahora no es posible instalar paquetes .xo desde el Diario porque la integración con el Diario se espera en una [http://wiki.sugarlabs.org/go/Platform_Team/Harmonic_Distribution/1.0/Todo#0.5 próxima versión]. La alternativa sugerida es instalar la actividad desde Terminal usando el comando <code>sugar-install-bundle</code> ''archivo.xo'' .
