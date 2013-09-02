@@ -1,0 +1,19 @@
+Lugar: Escuelab
+Fecha: Sábado 14 de Julio de 2012
+
+= Retos =
+
+Durante el evento los asistentes podrán elegir un reto o desafío sobre el que deseen trabajar, para los cuales se conformarán equipos con los asistentes.
+Si tienes una idea para desarrollar, puedes incluirla abajo.
+
+* [http://flask.pocoo.org/docs/testing/ Tests funcionales] para hacer testeable en forma automática las interfase de Sugar Network (icarito) ''dificultad: medio''
+
+* Una conexión de las comunicaciones entre la lista de correo electrónico y la [[Red Azúcar]] (kaametza) ''dificultad: medio''
+
+* Un juego multijugador sobre Red Azúcar. Sería interesante construir algo sobre http://lpc.opengameart.org/static/lpc-style-guide/ con HTML5 incluso se puede participar del [http://lpc.opengameart.org/ concurso]. (icarito) ''dificultad: difícil''
+
+* Una actividad para votaciones [Modelo de Gestión, en XO, de Elecciones para el Municipio Escolar.] (DAIPs) ''dificultad: difícil''
+
+* [tu idea aquí]
+
+Todos los desarrollos deberán funcionar sobre las laptop XO repartidas por el Ministerio de Educación y ser realizados con una licencia GPLv3.
