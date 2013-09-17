@@ -25,35 +25,35 @@ Descargue los archivos del casillero que corresponda.
 |-
 | XO-1 || 
 ''(descargar ambos archivos)''<br>
-[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.img hxp112.img]<br>[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/fs.zip fs.zip]
+[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.img|hxp112.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/fs.zip|fs.zip]]
 
-Si su laptop no es de Perú, también necesitará [http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.crc hxp112.crc]
-|| 
-''(descargar ambos archivos)''<br>
-[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.img hxp115.img]<br>[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/fs.zip fs.zip]
+Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.crc|hxp112.crc]]
+||
+//(descargar ambos archivos)//\\
+[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.img|hxp115.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/fs.zip|fs.zip]]
 
-Si su laptop no es de Perú, también necesitará [http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.crc hxp115.crc]
+Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.crc|hxp115.crc]]
 |-
 | XO-1.5 (2GB) || 
-''(descargar ambos archivos)''<br>
-[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/hxp112.zd hxp112.zd]<br>[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/fs.zip fs.zip]
+//(descargar ambos archivos)//\\
+[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/hxp112.zd|hxp112.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/fs.zip|fs.zip]]
  || 
-''(descargar ambos archivos)''<br>
-[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/hxp115.zd hxp115.zd]<br>[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/fs.zip fs.zip]
+//(descargar ambos archivos)//\\
+[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/hxp115.zd|hxp115.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/fs.zip|fs.zip]]
 |}
 
-<!--''Precaución:'' ambos archivos <code>fs.zip</code> son diferentes.-->
+**Atención:** ambos archivos {{{>fs.zip}}} son diferentes.
 
 == Instalar ==
 
-[http://network.sugarlabs.org/artifacts/download/11f88584ae7211e2bee8525400e4dcb5 Guía de Instalación v0.9]
+[[http://network.sugarlabs.org/artifacts/download/11f88584ae7211e2bee8525400e4dcb5 |Guía de Instalación v0.9]]
 
 En resumen:
 
 === Imagen XO ===
 
-* Guarde los archivos <code>'''''hxp'''''###</code> y <code>'''''fs.zip'''''</code> en el directorio raiz de una memoria USB.
-[[Archivo:gamekeys.jpg|right|teclas de juego]]
+* Guarde los archivos {{{hxp###}}} y {{{fs.zip}}} en el directorio raiz de una memoria USB.
+//{{gamekeys.jpg|teclas de juego}}//
 * Apague la XO. 
 * Inserte su memoria USB en la XO.
 * Encienda la XO y mantenga presionadas las cuatro "teclas de juego" ubicadas al costado derecho inferior de la pantalla.
@@ -62,14 +62,14 @@ En resumen:
 
 === Actualización ===
 
-Si ya usas alguna versión de Hexoquinasa puedes actualizar usando el comando <code>sudo sweets-distribution sync</code> desde la '''Actividad Terminal'''.
+Si ya usas alguna versión de Hexoquinasa puedes actualizar usando el comando {{{sudo sweets-distribution sync}}} desde la '''Actividad Terminal'''.
 
 == Versión Web ==
 
-Es posible acceder a la Red Azúcar usando la [http://network.sugarlabs.org/ WEB]. Los usuarios que así lo hagan, serán anónimos. Exceptuando la ejecución de actividades de Sugar, las funcionalidades de foros de discusión, artículos y compartir archivos deben funcionar en forma idéntica que desde una XO.
+Es posible acceder a la Red Azúcar usando la [[http://network.sugarlabs.org/|WEB]]. Los usuarios que así lo hagan, serán anónimos. Exceptuando la ejecución de actividades de Sugar, las funcionalidades de foros de discusión, artículos y compartir archivos deben funcionar en forma idéntica que desde una XO.
 
 == Históricos y otros ==
-Todos los archivos producidos de imágenes hexoquinasa se encuentran disponibles en el [http://download.sugarlabs.org/hexoquinasa/release/|sitio de descargas].
+Todos los archivos producidos de imágenes hexoquinasa se encuentran disponibles en el [[http://download.sugarlabs.org/hexoquinasa/release/|sitio de descargas]].
 
 === Subpáginas y archivo ===
 
