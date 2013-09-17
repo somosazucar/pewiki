@@ -100,3 +100,39 @@ Sections:
 |{{{**{{development.png}}** Left float}}}    |**{{development.png}}** Left float    |
 |{{{//{{development.png}}// Right float}}}   |//{{development.png}}// Right float   |
 |{{{Smiley :) faces}}}                       |Smiley :) faces                       |
+
+----
+{{#table}}
+== Tables
+
+//Don't// use tables for layout!
+
+Pending features (wish list?):
+* Table alignment within page
+* Cell alignment within table
+* Row and column spans
+* Lists within cells
+
+{{{#!text
+|Headers |=Column A|=Column B|=Column C|
+|=Row 1  |Cell A1  |Cell B1  |Cell C1  |
+|=Row 2  |Cell A2  |Cell B2  |
+|=Row 3  |Cell A3  |Cell B3  |Cell C3  |
+}}}
+
+|Headers |=Column A|=Column B|=Column C|
+|=Row 1  |Cell A1  |Cell B1  |Cell C1  |
+|=Row 2  |Cell A2  |Cell B2  |
+|=Row 3  |Cell A3  |Cell B3  |Cell C3  |
+
+{{{#!text
+|=Line Hdr\\Break Hdr|=Column //A//|Italic //B//|=Column C|
+|Row 1 |Bold **A1**|Italic //B1//|Cell C1|
+|=Row 2|Line A2\\Break A2|  |Link [[#list|C2]]|
+|=Row 3|{{{A3= Bar}}}    |Bold **B3**|
+}}}
+
+|=Line Hdr\\Break Hdr|=Column //A//|Italic //B//|=Column C|
+|Row 1 |Bold **A1**|Italic //B1//|Cell C1|
+|=Row 2|Line A2\\Break A2|  |Link [[#list|C2]]|
+|=Row 3|{{{A3= Bar}}}    |Bold **B3**|
