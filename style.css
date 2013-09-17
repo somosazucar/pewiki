@@ -83,6 +83,17 @@ img.smiley {
 i img { float: right; margin-left: 0.25em }
 b img { float: left; margin-right: 0.25em }
 
+table { 
+	margin: 1em auto; 
+	border-collapse: collapse; 
+	}
+
+table td, table th { 
+	border: 1px solid #999; 
+	padding: 0.125em 0.25em; 
+	line-height: 1.22 
+	}
+
 /* Conflicts */
 div.conflict pre.local {
     background: #fcaf3e;
