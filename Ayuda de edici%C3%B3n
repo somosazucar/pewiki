@@ -4,28 +4,28 @@ Aquí se describe brevemente la forma de escribir en este Wiki.
 También hay una [[Markup2|descripción más detallada]].
 
 Sections:
-[[#heading|Heading]],
-[[#emphasis|Emphasis]],
-[[#punctuation|Punctuation]],
-[[#paragraph|Paragraph]],
-[[#list|Lists]],
-[[#preformat|Preformat]],
-[[#syntax|Syntax]],
-[[#link|Links]],
-[[#image|Images]],
-[[#table|Tables]],
+[[#heading|Encabezados]],
+[[#emphasis|Resaltados]],
+[[#punctuation|Puntuación y Símbolos]],
+[[#paragraph|Párrafos]],
+[[#list|Listas]],
+[[#preformat|Texto preformateado]],
+[[#syntax|Sintaxis]],
+[[#link|Enlaces]],
+[[#image|Imágenes]],
+[[#table|Tablas]],
 
 
 {{#heading}}
 [[Markup2#heading|Headings]]:
-|=Markup                       |=Results (simulated) |=Comment        |
+|=Código                       |=Results (simulated) |=Comment        |
 |{{{== Large Heading (h2)}}}   |Large Heading (h2)   |Rendered big    |
 |{{{=== Medium Heading (h3)}}} |Medium Heading (h3)  |Rendered medium |
 |{{{==== Small Heading (h4)}}} |Small Heading (h4)   |Rendered small  |
 
 {{#emphasis}}
 [[Markup2#emphasis|Emphasis]]:
-|=Markup                        |=Results (simulated ?)   |=Comment               |
+|=Código                        |=Results (simulated ?)   |=Comment               |
 |{{{##Monospace text##}}}       |##Monospace text##       |
 |{{{//Italic text//}}}          |//Italic text//          |
 |{{{**Bold text**}}}            |**Bold text**            |Use sparingly          |
@@ -36,7 +36,7 @@ Sections:
 
 {{#punctuation}}
 [[Markup2#punctuation|Punctuation]]:
-|=Markup          |=Results   |=Comment |
+|=Código          |=Results   |=Comment |
 |{{{Go...home}}}  |Go...home  |&nellip; |
 |{{{Go--home}}}   |Go--home   |&ndash;  |
 |{{{Go---home}}}  |Go---home  |&mdash;  |
@@ -56,14 +56,14 @@ Sections:
 
 {{#paragraph}}
 [[Markup2#paragraph|Paragraphs]]:
-|=Markup                             |=Results               |=Comment                    |
+|=Código                             |=Results               |=Comment                    |
 |{{{Concatenate}}}\\{{{adjoining!}}} |Concatenate adjoining! |Concatenated and wrap       |
 |{{{Line 1 stuff.}}}\\{{{ }}}\\{{{line 3 stuff.}}} |Line 1 stuff.\\ \\line 3 stuff.      |Empty line between          |
 |{{{Force\\linebreak}}}              |Force\\ \\linebreak    |Forced '{{{\\}}}' linebreak |
 
 {{#list}}
 [[Markup2#list|Lists]]:
-|=Markup                      |=Results (simulated) |=Comment       |
+|=Código                      |=Results (simulated) |=Comment       |
 |{{{* First}}}\\{{{* Second}}}|* First\\* Second    |Unordered list |
 
 {{#preformat}}
@@ -74,7 +74,7 @@ Sections:
 
 {{#link}}
 [[Markup2#link|Links]]:
-|=Markup                                    |=Results                             |
+|=Código                                    |=Results                             |
 |{{{[[Markup2]]}}}                          |[[Markup2]]                          |
 |{{{[[Markup2|Markup details]]}}}           |[[Markup2|Markup details]]           |
 |{{{[[Markup2#emphasis]]}}}                 |[[Markup2#emphasis]]                 |
@@ -93,7 +93,7 @@ Sections:
 
 {{#image}}
 [[Markup2#image|Images]]:
-|=Markup                                     |=Results                              |
+|=Código                                     |=Results                              |
 |{{{Inline {{development.png}} image}}}      |Inline {{development.png}} image      |
 |{{{Inline {{development.png|Logo}} image}}} |Inline {{development.png|Logo}} image |
 |{{{Linked [[http://hatta-wiki.org|{{development.png}}]] image}}} |Linked [[http://hatta-wiki.org|{{development.png}}]] image |
