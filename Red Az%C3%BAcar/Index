@@ -125,7 +125,7 @@ Software Libre GPL V.3 + Open Data sobre estadísticas de uso.
 Para testear desde la Web:
 
 1. Visita http://network.sugarlabs.org
-Nota: Tener en cuenta que desde la Web solo se tiene acceso parcial a las funcionalidades de la Red. Si desea testear todas las funcionalidades necesita instalar una imagen de Sugar con acceso a la Red Azúcar. 
+Nota: Tener en cuenta que desde la Web solo se tiene acceso parcial a las funcionalidades de la Red. Si desea testear todas las funcionalidades necesita [[http://pe.sugarlabs.org/ir/Proyecto%20Piloto%20Hexoquinasa/Instalar|descargar]] e instalar una imagen de Sugar con acceso a la Red Azúcar. 
 
 Para testear desde las XO:
 
@@ -135,6 +135,7 @@ o desde:
 http://people.sugarlabs.org/icarito/Guia_usuario_imagen_beta_xo.pdf
 
 Y 2. sigue las instrucciones.
+
 
 ==¿Que pilotos están en ejecución?==
 
