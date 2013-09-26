@@ -1,13 +1,14 @@
-<big><big><big>Probado en Ubuntu 12.10</big></big></big>
-<br>
-Ventajas de montar un cliente<br>
-Estarás logueado en la Red Azucar<br>
-Podrás desarrollar en ella.<br>
+Probado en Ubuntu 12.10
+
+Ventajas de montar un cliente:
+  Estarás logueado en la Red Azucar
+  Podrás desarrollar en ella.
 
 Necesario:
 
-Clonar los siguientes repositorios en su computadora:<br>(Recomiendo clonar todos en un mismo directorio)
-<br>
+Clonar los siguientes repositorios en su computadora:
+  (Recomiendo clonar todos en un mismo directorio)
+
 https://git.sugarlabs.org/network/network<br>
 https://git.sugarlabs.org/network/webui<br>
 
@@ -17,13 +18,14 @@ https://git.sugarlabs.org/network/webui<br>
  apt-get python-gevent
  easy_install Flask-Babel
 
-Siguiente: <br>
+Siguiente:
 Debes abrir una terminal y acceder a la carpeta donde clonastes "network":
-<br>En mi caso:<br>
- ignacio@ignacio-laptop ~$ <b>cd Escritorio/Hexo/network/</b>
-Ahora:<br>
- ignacio@ignacio-laptop ~/Escritorio/Hexo/network$ <b>git submodule init</b>
-Si todo sale bien obtendrás este mensaje:<br>
+En mi caso:
+ ignacio@ignacio-laptop ~$ cd Escritorio/Hexo/network/
+Ahora:
+ ignacio@ignacio-laptop ~/Escritorio/Hexo/network$ git submodule init
+
+Si todo sale bien obtendrás este mensaje:
  Submodule 'sugar_network/lib/pylru' (git://github.com/jlhutch/pylru.git) 
  registered for path 'sugar_network/lib/pylru'
  Submodule 'sugar_network/lib/requests' (git://git.sugarlabs.org/network/requests.git) 
@@ -32,9 +34,10 @@ Si todo sale bien obtendrás este mensaje:<br>
  registered for path 'sugar_network/lib/zeroinstall'
 
 A continuación debemos ejecutar:
- ignacio@ignacio-laptop ~/Escritorio/Hexo/network$ <b>git submodule update</b>
+ ignacio@ignacio-laptop ~/Escritorio/Hexo/network$ git submodule update
 
 De esta forma estamos actualizando los módulos anteriormente cargados.
+
 En mi computadora este fue el resultado:
  Cloning into 'sugar_network/lib/pylru'...
  remote: Counting objects: 159, done.
@@ -58,24 +61,24 @@ En mi computadora este fue el resultado:
  Resolving deltas: 100% (10793/10793), done.
  Submodule path 'sugar_network/lib/zeroinstall': checked out 'b1d59788bfc54ccdb0c8bd4dc5f90921c244de8b'
 
-¡Ya estamos listos!<br>
+¡Ya estamos listos!
 A continuación:
-*Suponiendo que "webui" esta clonado en ../webui*
- <b>export PYTHONPATH=`pwd`/../webui/</b>
- <b>python2 sugar-network-client -a http://node-devel.sugarlabs.org  --webui -DDF start</b>
+(Suponiendo que "webui" esta clonado en ../webui)
+ export PYTHONPATH=`pwd`/../webui/
+ python2 sugar-network-client -a http://node-devel.sugarlabs.org  --webui -DDF start
 
 
-<h1>¡Eureka!</h1>
-Si todo va bien ya puedes acceder a la Red Azucar local:<br>
+Si todo va bien ya puedes acceder a la Red Azucar local:
  http://localhost:5000/context?page=1
 
 [[Archivo:SugarNetworkCorriendo.jpg]]
 
-<h1>Contacto</h1>
+== Contacto == 
+
 Si por casualidad tienes algún error/consulta te recomiendo contactarte con la [http://lists.sugarlabs.org/listinfo/somosazucar Lista de Correo de SomosAzucar] donde muchas personas te podremos dar una buena ayuda!<br>
 
-Si las listas de correo no son lo tuyo.. Puedes enviar un email a:<br>
-[mailto:sebastian@somosazucar.org Sebastian Silva]<br>
-[mailto:laura@somosazucar.org Laura Vargas]<br>
-[mailto:alsroot@sugarlabs.org Aleksey Lim] <b>(Inglés)</b><br>
+Si las listas de correo no son lo tuyo.. Puedes enviar un email a:
+[mailto:sebastian@somosazucar.org Sebastian Silva]
+[mailto:laura@somosazucar.org Laura Vargas]
+[mailto:alsroot@sugarlabs.org Aleksey Lim] (Inglés)
 [mailto:ignacio@somosazucar.org Ignacio Rodríguez]
