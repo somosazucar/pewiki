@@ -1,0 +1,78 @@
+**{{aviso.png}}** **ADVERTENCIA:** HEXOQUINASA y la RED AZÚCAR son proyectos de SOFTWARE LIBRE los cuales están en su fase de desarrollo. Este software es experimental y usted por participar forma parte de un PROYECTO PILOTO.
+
+Por favor lea detalladamente los [[Red Azúcar#head-0-3-8|Términos de Uso]].
+
+== Notas de release ==
+
+La serie 1.x de Hexoquinasa se basa en el Sistema Operativo de OLPC versión 11.3.x el cual hasta la fecha ha demostrado ser el más estable y de mejor rendimiento. Hexoquinasa cuenta con acceso directo a la Red Azúcar, el foro de soporte de la comunidad para la distribución y discusión de software actualizado, contenidos y recursos de aprendizaje.
+
+Agradecemos a la Dirección General de Tecnologías Educativas del Ministerio de Educación de Perú (DIGETE) por su apoyo a este proyecto que busca aumentar el aprovechamiento tecnológico-pedagógico de las XO, iniciando con la campaña de actualización, "Actualiza XO".
+
+Esta versión es considerada BETA 3 y preliminar para distribución final, por lo que el equipo agradece a la comunidad su descarga, instalación, y pruebas. Las ideas, problemas y observaciones de la comunidad docente serán muy valiosas para que el equipo pueda mejorar la experiencia de todos los usuarios finales.
+
+== Anexo Técnico ==
+
+[[Hexoquinasa/v1.0]] - BETA3
+
+== Descarga ==
+
+Descargue los archivos del casillero que corresponda.
+{| class="wikitable"
+|-
+! Modelo de laptop XO !! Archivos v112 BETA3 !! Archivos v115 BETA3 
+
+(incluye Scratch e Etoys)
+|-
+| XO-1 || 
+''(descargar ambos archivos)''<br>
+[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.img|hxp112.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/fs.zip|fs.zip]]
+
+Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.crc|hxp112.crc]]
+||
+//(descargar ambos archivos)//\\
+[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.img|hxp115.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/fs.zip|fs.zip]]
+
+Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.crc|hxp115.crc]]
+|-
+| XO-1.5 (2GB) || 
+//(descargar ambos archivos)//\\
+[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/hxp112.zd|hxp112.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/fs.zip|fs.zip]]
+ || 
+//(descargar ambos archivos)//\\
+[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/hxp115.zd|hxp115.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/fs.zip|fs.zip]]
+|}
+
+**Atención:** ambos archivos {{{>fs.zip}}} son diferentes.
+
+== Instalar ==
+
+[[http://network.sugarlabs.org/artifacts/download/11f88584ae7211e2bee8525400e4dcb5 |Guía de Instalación v0.9]]
+
+En resumen:
+
+=== Imagen XO ===
+
+* Guarde los archivos {{{hxp###}}} y {{{fs.zip}}} en el directorio raiz de una memoria USB.
+//{{gamekeys.jpg|teclas de juego}}//
+* Apague la XO. 
+* Inserte su memoria USB en la XO.
+* Encienda la XO y mantenga presionadas las cuatro "teclas de juego" ubicadas al costado derecho inferior de la pantalla.
+* La XO procederá a instalar HEXOQUINASA.
+* La XO se reiniciará y preguntará su nombre y color.
+
+=== Actualización ===
+
+Si ya usas alguna versión de Hexoquinasa puedes actualizar usando el comando {{{sudo sweets-distribution sync}}} desde la '''Actividad Terminal'''.
+
+== Versión Web ==
+
+Es posible acceder a la Red Azúcar usando la [[http://network.sugarlabs.org/|WEB]]. Los usuarios que así lo hagan, serán anónimos. Exceptuando la ejecución de actividades de Sugar, las funcionalidades de foros de discusión, artículos y compartir archivos deben funcionar en forma idéntica que desde una XO.
+
+== Históricos y otros ==
+Todos los archivos producidos de imágenes hexoquinasa se encuentran disponibles en el [[http://download.sugarlabs.org/hexoquinasa/release/|sitio de descargas]].
+
+=== Subpáginas y archivo ===
+
+{{Special:PrefixIndex/{{PAGENAMEE}}/}}
+
+[[Hexoquinasa/v0.9]]

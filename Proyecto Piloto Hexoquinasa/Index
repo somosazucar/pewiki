@@ -1,0 +1,97 @@
+== Descarga e Instalación ==
+
+**{{cd.png}}** [[Proyecto Piloto Hexoquinasa/Instalar]]
+
+==Objetivo General==
+
+Activar y probar una red de soporte y disribución de contenidos para mejorar la experiencia de uso y apropiación de la tecnología SUGAR/AZUCAR entre los beneficiarios del programa Una Laptop Por Niño de Perú.
+
+==Objetivos Específicos==
+
+* Desarrollar y mejorar colaborativamente "Hexoquinasa" una imagen actualizada de sistema operativo con entorno de aprendizaje SUGAR/AZUCAR.
+
+* Conformar la base de la red de usuarios Sugar Network mediante la instalación inicial de Hexoquinasa en veinte (20) Aulas de Innovación Pedagógica y seis (6) Escuelas Unidocentes Multigrado.
+
+* Activar y medir el uso de la red, mediante la coordinación de tres (3) actividades de trabajo colaborativo diseñadas dentro del marco del Proyecto Educativo Nacional.
+
+==Desarrollo de Herramientas==
+
+El equipo técnico llevará a cabo tres desarrollos significativos para este proyecto.
+
+* Se confeccionará una imagen de Sistema Operativo actualizada con la última versión estable de Sugar / Azúcar a la cual se le integrarán las traducciones a quechua y aymara que se vayan realizando, así como también una selección de contenidos y software adicionales.
+
+* Se implementará el primer cliente de la red socio-educativa Sugar Network [02], con el objetivo de obtener retroalimentación de terreno y proveer de soporte y distribución de contenidos.
+
+* Se desarrollará una metodología de sincronización Offline+Online mediante el traslado en USB de la información actualizada a los participantes.
+
+==Diseño de Metodología==
+
+* Definir Zonas de Intervención
+* Realizar inmersión en la Zona; documentar roles comunitarios, municipales y ministeriales junto con sus necesidades y objetivos. 
+* Coordinar, ejecutar y documentar tres (3) actividades de trabajo colaborativo.
+
+==Cronograma== 
+
+Actividades de Investigación y Desarrollo
+#Diseño [2009-2012] 
+#Desarrollo [Agosto 2011 - Diciembre 2012]
+#Documentación [Julio 2012 - Diciembre 2012]
+
+Actividades de Despliegue y Actualización de imagen
+#Selección y enrolamiento de Beneficiarios en Roles del piloto [Julio 2012]
+#Instalación de solución tecnológica inicial [Agosto de 2012]
+#Diseño de Estrategia de Acople con el MED [Mayo - Julio 2012]
+#Desarrollo de Contenidos Específicos [Agosto - Diciembre 2012]
+#Instalación de solución tecnológica final [Diciembre de 2012]
+
+Actividades de Mantenimiento y Soporte [mensual]
+#Monitoreo
+#Análisis de Métricas
+#Mejoramiento
+
+==Roles Activos==
+
+*Aleksey Lim: Desarrollador Upstream, Líder de Plataforma
+*Laura Vargas: Main Beta tester, Arquitecto, Dirección de Investigación y Desarrollo, Ingeniero de Proyecto, Diseñador de Producto, Diseñador de Interfases de Usuario, Diseñador Estrategia de lanzamiento, Documentación  
+*Sebastian Silva: Director Técnico, Desarrollador Front End
+*Thomas Gilliard: Main Alfa Tester
+*Ignacio Rodriguez: Field Alfa Tester
+
+Para contactar a este grupo via email envía correo a activos@somosazucar.org
+
+==Roles Disponibles==
+
+*Testers locales
+*Coordinadores de Actividades Locales
+*Coordinadores de Contenidos Locales
+*Investigadores Asociados 
+ 
+Para aplicar a uno de estos roles envia tu propuesta a disponibles@somosazucar.org 
+
+Nota Estacional: En este momento estamos recibiendo grupos de testers locales, para ampliar información sobre el enrolamiento de una comunidad o institución educativa, puedes enviar correo a todos@somosazucar.org
+
+==Documentación==
+
+Guia de Usuario
+
+[https://docs.google.com/a/somosazucar.org/spreadsheet/ccc?key=0AvKs-lnC-jxldFd3ZGVGeGtKbmRIN01sOENyb3FWVkE#gid=17 Recursos para Ejecución Fase I]
+
+[https://docs.google.com/presentation/d/1RWbunKn9Z6_dmSu9yhYtm1IkNufHrvvLFiyVgT6cRAE/edit Presentación]
+
+==Actores Involucrados== 
+
+#SomosAZUCAR.Org
+#Sugar Labs Perú, Junta de Supervisión
+#Sugar Labs, Platform Team
+#Dirección General de Tecnologías Educativas
+#Municipalidad de Comas 
+#Mesa de Educación de Independencia
+#Dirección Regional de Educación
+
+==Referencias==
+
+[http://somosazucar.org/ SomosAZUCAR.Org]
+
+[http://wiki.sugarlabs.org/go/Deployment_Team/Peru Peru Deployment Team]
+
+[http://wiki.sugarlabs.org/go/Sugar_Network#Summary Sugar Network Summary (Red Azúcar).]

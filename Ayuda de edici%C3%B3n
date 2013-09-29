@@ -1,0 +1,102 @@
+= Resumen de sintaxis
+
+Aquí se describe brevemente la forma de escribir en este Wiki.
+También hay una [[Markup2|descripción más detallada]].
+
+Sections:
+[[#heading|Heading]],
+[[#emphasis|Emphasis]],
+[[#punctuation|Punctuation]],
+[[#paragraph|Paragraph]],
+[[#list|Lists]],
+[[#preformat|Preformat]],
+[[#syntax|Syntax]],
+[[#link|Links]],
+[[#image|Images]],
+[[#table|Tables]],
+[[#math|Math]],
+
+{{#heading}}
+[[Markup2#heading|Headings]]:
+|=Markup                       |=Results (simulated) |=Comment        |
+|{{{== Large Heading (h2)}}}   |Large Heading (h2)   |Rendered big    |
+|{{{=== Medium Heading (h3)}}} |Medium Heading (h3)  |Rendered medium |
+|{{{==== Small Heading (h4)}}} |Small Heading (h4)   |Rendered small  |
+
+{{#emphasis}}
+[[Markup2#emphasis|Emphasis]]:
+|=Markup                        |=Results (simulated ?)   |=Comment               |
+|{{{##Monospace text##}}}       |##Monospace text##       |
+|{{{//Italic text//}}}          |//Italic text//          |
+|{{{**Bold text**}}}            |**Bold text**            |Use sparingly          |
+|{{{**//Bold-italic text//**}}} |**//Bold-italic text//** |
+|{{{//**Italic-bold text**//}}} |//**Italic-bold text**// |Same as previous       |
+|{{{{{{Monospace no-wiki}}}}}}  |{{{Monospace no-wiki}}}  |Inline mono, no format |
+|{{{----}}}                     |___________________      |Horizontal line        |
+
+{{#punctuation}}
+[[Markup2#punctuation|Punctuation]]:
+|=Markup          |=Results   |=Comment |
+|{{{Go...home}}}  |Go...home  |&nellip; |
+|{{{Go--home}}}   |Go--home   |&ndash;  |
+|{{{Go---home}}}  |Go---home  |&mdash;  |
+|{{{Go----home}}} |Go----home |
+|{{{Go~home}}}    |Go~home    |&nbsp;   |
+|{{{Go\~home}}}   |Go\~home   |"~"      |
+|{{{Go~~home}}}   |Go~~home   |&sim;    |
+|{{{Go(C)home}}}  |Go(C)home  |&copy;   |
+|{{{Go-->home}}}  |Go-->home  |&rarr;   |
+|{{{Go<--home}}}  |Go<--home  |&larr;   |
+|{{{Go(R)home}}}  |Go(R)home  |&reg;    |
+|{{{Go(TM)home}}} |Go(TM)home |&trade;  |
+|{{{Go%%home}}}   |Go%%home   |&permil; |
+|{{{Go``home}}}   |Go``home   |&ldquo;  |
+|{{{Go''home}}}   |Go''home   |&rdquo;  |
+|{{{Go,,home}}}   |Go,,home   |&bdquo;  |
+
+{{#paragraph}}
+[[Markup2#paragraph|Paragraphs]]:
+|=Markup                             |=Results               |=Comment                    |
+|{{{Concatenate}}}\\{{{adjoining!}}} |Concatenate adjoining! |Concatenated and wrap       |
+|{{{Line 1 stuff.}}}\\{{{ }}}\\{{{line 3 stuff.}}} |Line 1 stuff.\\ \\line 3 stuff.      |Empty line between          |
+|{{{Force\\linebreak}}}              |Force\\ \\linebreak    |Forced '{{{\\}}}' linebreak |
+
+{{#list}}
+[[Markup2#list|Lists]]:
+|=Markup                      |=Results (simulated) |=Comment       |
+|{{{* First}}}\\{{{* Second}}}|* First\\* Second    |Unordered list |
+
+{{#preformat}}
+[[Markup2#preformat|Preformatted]]:
+|=Markup |=Results (simulated) |=Comment                |
+|{{{{{{#!text}}}\\{{{Block text}}}\\{{{preformatted}}}\\{{{monospace}}}\\{{{syntax highlight}}}\\{{{}}}}}} |Block text\\preformatted\\monospace\\syntax highlight|No Wiki formats or links.\\Syntax selected by optional\\'#!text', '#!c', '#!Fortran' or ...\\http://pygments.org/docs/lexers/#special-lexers|
+|{{{> Joe: Beer is Best!}}}\\{{{>> Bob: Wine is refined}}} |{{{| Joe: Beer is Best!}}}\\{{{|| Bob: Wine is refined}}} |Conversation block |
+
+{{#link}}
+[[Markup2#link|Links]]:
+|=Markup                                    |=Results                             |
+|{{{[[Markup2]]}}}                          |[[Markup2]]                          |
+|{{{[[Markup2|Markup details]]}}}           |[[Markup2|Markup details]]           |
+|{{{[[Markup2#emphasis]]}}}                 |[[Markup2#emphasis]]                 |
+|{{{[[Markup2#emphasis|Markup emphasis]]}}} |[[Markup2#emphasis|Markup emphasis]] |
+|{{{[[path/filename.hat]]}}}                |[[path/filename.hat]]                |
+|{{{[[chapter_1/section_2#par3]]}}}         |[[chapter_1/section_2#par3]]         |
+|{{{[[#test]]}}}                            |[[#test]]                            |
+|{{{[[#test|On page link]]}}}               |[[#test|On page link]]               |
+|{{{[[#5|[5] ]] Footnote}}}                 |[[#5|[5] ]] Footnote                 |
+|{{{http://sheep.art.pl}}}                  |http://sheep.art.pl                  |
+|{{{[[http://sheep.art.pl]]}}}              |[[http://sheep.art.pl]]              |
+|{{{[[http://sheep.art.pl|Sheep]]}}}        |[[http://sheep.art.pl|Sheep]]        |
+|{{{[[Home|{{development.png}}]]}}}         |[[Home|{{development.png}}]]         |
+|{{{MarkupSummary (CamelCase enabled)}}}    |MarkupSummary (CamelCase enabled)    |
+|{{{{{#5}} [5] Footnote anchor}}}           |{{#5}} [5] Footnote anchor           |
+
+{{#image}}
+[[Markup2#image|Images]]:
+|=Markup                                     |=Results                              |
+|{{{Inline {{development.png}} image}}}      |Inline {{development.png}} image      |
+|{{{Inline {{development.png|Logo}} image}}} |Inline {{development.png|Logo}} image |
+|{{{Linked [[http://hatta-wiki.org|{{development.png}}]] image}}} |Linked [[http://hatta-wiki.org|{{development.png}}]] image |
+|{{{**{{development.png}}** Left float}}}    |**{{development.png}}** Left float    |
+|{{{//{{development.png}}// Right float}}}   |//{{development.png}}// Right float   |
+|{{{Smiley :) faces}}}                       |Smiley :) faces                       |
