@@ -1,4 +1,6 @@
-**{{aviso.png}}** **ADVERTENCIA:** HEXOQUINASA y la RED AZÚCAR son proyectos de SOFTWARE LIBRE los cuales están en su fase de desarrollo. Este software es experimental y usted por participar forma parte de un PROYECTO PILOTO.
+**{{aviso.png}}** **ADVERTENCIA:** HEXOQUINASA y la RED AZÚCAR son proyectos de SOFTWARE LIBRE en fase de desarrollo. Este software es experimental y su objetivo es la investigación y documentación de mejores prácticas de uso de la tecnología y su comunicación entre las comunidades locales. 
+
+Al descargarlo e instalarlo, los usuarios participan activamente en estos PROYECTOS PILOTO.
 
 Por favor lea detalladamente los [[Red Azúcar#head-0-3-8|Términos de Uso]].
 
@@ -14,35 +16,16 @@ Esta versión es considerada BETA 3 y preliminar para distribución final, por l
 
 [[Hexoquinasa/v1.0]] - BETA3
 
+{{#Descarga}}
 == Descarga ==
 
 Descargue los archivos del casillero que corresponda.
-{| class="wikitable"
-|-
-! Modelo de laptop XO !! Archivos v112 BETA3 !! Archivos v115 BETA3 
 
-(incluye Scratch e Etoys)
-|-
-| XO-1 || 
-''(descargar ambos archivos)''<br>
-[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.img|hxp112.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/fs.zip|fs.zip]]
+|Modelo de laptop XO|=Archivos v112 BETA3|=Archivos v115 BETA3\\(incluye Scratch e Etoys)|
+|=XO-1|//(descargar ambos archivos)//\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.img|hxp112.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/fs.zip|fs.zip]]\\Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.crc|hxp112.crc]]|//(descargar ambos archivos)//\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.img|hxp115.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/fs.zip|fs.zip]]\\Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.crc|hxp115.crc]]|
+|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/hxp112.zd|hxp112.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/fs.zip|fs.zip]]|//(descargar ambos archivos)//\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/hxp115.zd|hxp115.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/fs.zip|fs.zip]]|
 
-Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1/hxp112.crc|hxp112.crc]]
-||
-//(descargar ambos archivos)//\\
-[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.img|hxp115.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/fs.zip|fs.zip]]
-
-Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1/hxp115.crc|hxp115.crc]]
-|-
-| XO-1.5 (2GB) || 
-//(descargar ambos archivos)//\\
-[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/hxp112.zd|hxp112.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v112/xo1.5/fs.zip|fs.zip]]
- || 
-//(descargar ambos archivos)//\\
-[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/hxp115.zd|hxp115.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v115/xo1.5/fs.zip|fs.zip]]
-|}
-
-**Atención:** ambos archivos {{{>fs.zip}}} son diferentes.
+**Atención:** ambos archivos {{{fs.zip}}} son diferentes.
 
 == Instalar ==
 
@@ -72,7 +55,5 @@ Es posible acceder a la Red Azúcar usando la [[http://network.sugarlabs.org/|WE
 Todos los archivos producidos de imágenes hexoquinasa se encuentran disponibles en el [[http://download.sugarlabs.org/hexoquinasa/release/|sitio de descargas]].
 
 === Subpáginas y archivo ===
-
-{{Special:PrefixIndex/{{PAGENAMEE}}/}}
 
 [[Hexoquinasa/v0.9]]

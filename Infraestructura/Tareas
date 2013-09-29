@@ -1,0 +1,9 @@
+== Sistema de Seguimiento de Tareas ==
+
+**{{tareas.png}}** http://tareas.somosazucar.org/ es un sistema de seguimiento que permite a la comunidad saber qué tareas hay pendientes, los objetivos de desarrollo y también qué fallas pueden haberse presentado.
+
+Los contribuidores a los proyectos de Laboratorios Azúcar tienen esta herramienta disponible.
+
+La plataforma cuenta con una pasarela de correo electrónico lo cual permite que sea posible el seguimiento de correos electrónicos los cuales contengan el encabezado {{{[issue###]}}} asociado con la tarea, que sean enviados a la dirección //tareas[arroba]somosazucar.org//.
+
+Porfavor repórtese problemas en esta plataforma a nuestra lista de correo {{{todos[arroba]somosazucar.org}}}.
