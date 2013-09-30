@@ -71,14 +71,14 @@ A continuación:
 Si todo va bien ya puedes acceder a la Red Azucar local:
  http://localhost:5000/context?page=1
 
-[[Archivo:SugarNetworkCorriendo.jpg]]
+{{Archivo:SugarNetworkCorriendo.jpg}}
 
 == Contacto == 
 
 Si por casualidad tienes algún error/consulta te recomiendo contactarte con la [http://lists.sugarlabs.org/listinfo/somosazucar Lista de Correo de SomosAzucar] donde muchas personas te podremos dar una buena ayuda!<br>
 
 Si las listas de correo no son lo tuyo.. Puedes enviar un email a:
-[mailto:sebastian@somosazucar.org Sebastian Silva]
-[mailto:laura@somosazucar.org Laura Vargas]
-[mailto:alsroot@sugarlabs.org Aleksey Lim] (Inglés)
-[mailto:ignacio@somosazucar.org Ignacio Rodríguez]
+[[mailto:sebastian@somosazucar.org|Sebastian Silva]]
+[[mailto:laura@somosazucar.org|Laura Vargas]]
+[[mailto:alsroot@sugarlabs.org|Aleksey Lim] (Inglés)
+[[mailto:ignacio@somosazucar.org|Ignacio Rodríguez]]
