@@ -1,0 +1,43 @@
+* Extraído de SugarLabs
+
+This is the project page for the Sugar Labs application to Google Code In 2013. Sugar Labs community members: please feel free to add tasks below. We'll do an edit before final applications are due on 28 Oct 2013.
+
+
+Este año participare en GCI :) (Ignacio Rodríguez)
+
+= Tareas propuestas por Laboratorios Azucar =
+== Documentación ==
+
+| Sugar Network Videos 1 | Hacer un video mostrando como se usa la vista de la Red Azúcar para buscar y ejecutar Actividades | kaametza | 0 | sugar-network
+| Sugar Network Videos 2 | Hacer un video mostrando como se usa la vista de la Red Azúcar para hacer una reseña | kaametza | 0 | sugar-network
+| Sugar Network Videos 3 | Hacer un video mostrando como se usa la vista de la Red Azúcar para reportar un problema encontrado en una Actividad | kaametza | 0 | sugar-network
+| Sugar Network Videos 4 | Hacer un video mostrando como se usa la vista de la Red Azúcar para reportar un problema encontrado en una Actividad | kaametza | 0 | sugar
+| Sugar Network Videos 5 | Hacer un video mostrando como se usa la vista de la Red Azúcar para consultar la linea de tiempo de la Red | kaametza | 0 | sugar-network
+| Sugar Network Videos 6 | Hacer un video mostrando como se usa la vista de la Red Azúcar para crear un nuevo proyecto | kaametza | 0 | sugar-network
+
+== Investigación ==
+
+| Gamify Sugar Network | Proponer estrategias de ludificación para la vista Red Azúcar | kaametza | 0 | sugar-network
+| Sugar Network Geomapping | Proponer usos de la georeferenciación para la vista Red Azúcar | kaametza | 0 | sugar-network
+
+== Interfaz de usuario ==
+
+| Gamification design | Diseñar pantallazos de las estrategias propuestas de ludificación para la vista Red Azúcar | kaametza | 0 | sugar-network
+| Geomapping design | Diseñar pantallazos de los usos de la georeferenciación propuestos para la vista Red Azúcar | kaametza | 0 | sugar-network
+
+== Aseguramiento de la calidad ==
+
+| Keyboard navigation | Sugar debería ser navegable con atajos de teclas, pero no. Hacer una lista de las acciones sin atajos de teclado. | icarito | 0 | sugar
+
+== Código ==
+| Activity skeletons | Coleccionar los diferentes esqueletos de actividad disponibles, plantillas básicas para GTK2, GTK3, Actividades Web (varios tipos), enchufes, etc. Pueden ser útiles para proyectos de IDE o Asistentes. Identificar elementos reemplazables (titulos, identificadores, etc). | icarito | 0 | sugar
+
+= Participantes =
+Laboratorios Azúcar se animó a participar! ;)
+
+== Mentores ==
+icarito (Sebastian Silva)
+kaametza (Laura Vargas)
+
+== Participantes ==
+ignacio (Ignacio Rodríguez)
