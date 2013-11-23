@@ -9,8 +9,8 @@ Necesario:
 Clonar los siguientes repositorios en su computadora:
   (Recomiendo clonar todos en un mismo directorio)
 
-https://git.sugarlabs.org/network/network<br>
-https://git.sugarlabs.org/network/webui<br>
+https://git.sugarlabs.org/network/network
+https://git.sugarlabs.org/network/webui
 
  git clone git://git.sugarlabs.org/network/network.git
  git clone git://git.sugarlabs.org/network/webui.git
@@ -75,10 +75,16 @@ Si todo va bien ya puedes acceder a la Red Azucar local:
 
 == Contacto == 
 
-Si por casualidad tienes algún error/consulta te recomiendo contactarte con la [http://lists.sugarlabs.org/listinfo/somosazucar Lista de Correo de SomosAzucar] donde muchas personas te podremos dar una buena ayuda!<br>
+Si por casualidad tienes algún error/consulta te recomiendo contactarte con la [http://lists.sugarlabs.org/listinfo/somosazucar Lista de Correo de SomosAzucar] donde muchas personas te podremos dar una buena ayuda!
 
-Si las listas de correo no son lo tuyo.. Puedes enviar un email a:
+Si las listas de correo no son lo tuyo :(
+
+Puedes enviar un email a:
+
 [[mailto:sebastian@somosazucar.org|Sebastian Silva]]
+
 [[mailto:laura@somosazucar.org|Laura Vargas]]
+
 [[mailto:alsroot@sugarlabs.org|Aleksey Lim]] (Inglés)
+
 [[mailto:ignacio@somosazucar.org|Ignacio Rodríguez]]
