@@ -1,0 +1,14 @@
+== Para pruebas ==
+
+La imagen 149 (Febrero 2014) es idéntica a la imagen 144 exceptuando por los vínculos disponibles en el hogar del navegador. Se incluye un enlace a la USB del portal PeruEduca.
+
+{{#Descarga}}
+== Descarga ==
+
+Descargue los 2 archivos del casillero que corresponda.
+
+|Modelo de laptop XO|=Archivos v149 BETA4\\(Enero 2014)|
+|=XO-1|//(descargar ambos archivos)//\\[[http://download.sugarlabs.org/hexoquinasa/release/v149/xo1/hxp149.img|hxp149.img]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v149/xo1/fs.zip|fs.zip]]\\Si su laptop no es de Perú, también necesitará [[http://download.sugarlabs.org/hexoquinasa/release/v149/xo1/hxp149.crc|hxp149.crc]]|
+|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://download.sugarlabs.org/hexoquinasa/release/v149/xo1.5/hxp149.zd|hxp149.zd]]\\[[http://download.sugarlabs.org/hexoquinasa/release/v149/xo1.5/fs.zip|fs.zip]]|
+
+**Atención:** los archivos {{{fs.zip}}} son todos diferentes.
