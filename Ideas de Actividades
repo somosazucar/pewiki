@@ -1,0 +1,8 @@
+* Actividad Developer Hub
+** Interfase a Git + GitLab/Github
+
+{{git_front_end.png}}
+
+* Actividad Creador de Juegos
+** "Asistente" para crear juegos del Taller de Artesano
+** Incluye un editor de imagen (Actividad Web+Canvas Gtk3)
