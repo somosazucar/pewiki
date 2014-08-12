@@ -1,3 +1,5 @@
+//Documento en borrador//
+
 Programa de implementación y certificación de puntos de servicios informáticos en bibliotecas e instituciones educativas.
 
 * Al menos un salón con Software Libre exclusivamente
@@ -11,5 +13,11 @@ Ejemplos de talleres:
 * [[Taller del Artesano]] en Programación de Videojuegos con Python
 * Taller de manipulación de Imágenes con Gimp
 * El Tejido de la Red con HTML5
+* (otras propuestas)
 
-Los materiales con los que se realicen los talleres deberán ser compartidos con una [[licencia apropiada]].
+Estos talleres deben cumplir las siguientes características:
+* Deben tratar sobre una tecnología libre
+* No debe requerir o favorecer el uso de software privativo para funcionar
+* Los materiales con los que se realicen los talleres deberán ser compartidos con una [[licencia apropiada]].
+* La participación de los aprendices es voluntaria
+* La contribución de los aprendices debe ser voluntaria o en último caso, módica
