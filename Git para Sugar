@@ -1,0 +1,15 @@
+Interfase de usuario orientada no solo a facilitar los procesos de trabajo colaborativo con Git, sino también a potenciar el uso de la herramienta de diferentes maneras.
+
+Se proponen los siguientes flujos de trabajo:
+
+* Clonar actividades/proyectos
+* "Ver" archivos y cambios
+* "Ver" el árbol, las ramas y los nodos
+* "Ver" y moverse en la línea de tiempo
+* "Ver" los diferentes contribuidores/contribuciones
+* Enviar parches
+* "Ver" y responder issues pendientes en GitLab/GitHub/Sugar Network
+
+Casos de uso:
+# Examinar un caso de estudio
+# Entender cómo evolucionó un programa
