@@ -22,6 +22,20 @@ Los desarrolladores almacenan todas las versiones en este recurso. Es el lugar p
 
 https://github.com/icarito/english-for-life
 
+= Bocetos de Diseño de Experiencia de Usuario =
+
+== Reproductor de Video ==
+
+{{reproductor.jpg}}
+
+== Ensayo con Flashcards ==
+
+{{keywords.kpg}}
+
+== Actividad Lúdica ==
+
+{{juego.jpg}}
+
 = Especificación Técnica =
 
 En su primera versión implementaremos 6 cápsulas temáticas.
