@@ -62,3 +62,14 @@ Cada cápsula tiene, por ejemplo, la siguiente representación en el sistema de 
  -/Vocab/1.csv
  -/Imagen/1/
  -/Audio/1/
+
+= Cronograma de Trabajo =
+
+* Prototipo funcional //alfa// **primera semana de Diciembre**
+* Versión completa para pruebas //beta// **primera semana de Enero**
+* Versión final //producción// **primera semana de Febrero**
+
+| |=Diciembre|=Enero|=Febrero|
+|=Primera Entrega|//Alfa//| | |
+|=Segunda Entrega| |//Beta//|  |
+|=Entrega Final| | |//Producción//  |
