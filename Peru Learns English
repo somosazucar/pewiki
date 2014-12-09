@@ -10,6 +10,13 @@ Empaquetado para Fedora 11:
 
 [[peru_learns_english_0.1.zip]]
 
+== Cómo instalar ==
+
+# Este archivo debe ser descargado a la XO, ya sea por Internet o mediante una USB. La carpeta comprimida contiene los paquetes de instalación nativos de Fedora.
+# Se puede descomprimir la carpeta con el comando ##unzip peru_learns_english_0.1.zip## . Esto debe hacerse desde una terminal.
+# Se debe ejecutar el script de instalación ##sh ./instalar.sh## . A continuación se completará la instalación (puede demorar unos minutos).
+# Aparecerá un ícono de aplicación en la sección “Educación” del menú principal de Gnome. Ahora está listo para probar la versión alfa de Perú Learns English.
+
 = Herramientas de Coordinación =
 
 == Esta Wiki ==
@@ -28,7 +35,7 @@ Los desarrolladores almacenan todas las versiones en este recurso. Es el lugar p
 
 https://github.com/icarito/english-for-life
 
-La última versión siempre se puede obtener de: 
+La última versión en desarrollo siempre se puede obtener de: 
 
 [[https://github.com/icarito/english-for-life/archive/master.zip]]
 
