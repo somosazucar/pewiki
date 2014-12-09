@@ -1,0 +1,85 @@
+**"Peru Learns English"** es un sistema de aprendizaje de inglés.
+
+Versión Actual: 0.1 (Alfa)
+
+Licencia: GPLv3
+
+= Paquetes de Instalación =
+
+Empaquetado para Fedora 11:
+
+[[peru_learns_english_0.1.zip]]
+
+= Herramientas de Coordinación =
+
+== Esta Wiki ==
+
+Este documento es colaborativo y esperamos continuar desarrollándolo en conjunto.
+
+== Lista de correo ==
+
+Es el lugar para dialogar entre los diferentes actores que desarrollan y usan el sistema.
+
+[[https://groups.google.com/forum/#!forum/english-for-life-peru|Grupo de discusión]]
+
+== Repositorio de Fuentes ==
+
+Los desarrolladores almacenan todas las versiones en este recurso. Es el lugar para contribuir con código y contenidos.
+
+https://github.com/icarito/english-for-life
+
+La última versión siempre se puede obtener de: 
+
+[[https://github.com/icarito/english-for-life/archive/master.zip]]
+
+= Bocetos de Diseño de Experiencia de Usuario =
+
+== Reproductor de Video ==
+
+{{reproductor.jpg}}
+
+== Ensayo con Flashcards ==
+
+{{keywords.jpg}}
+
+== Actividad Lúdica ==
+
+{{juego.jpg}}
+
+= Especificación Técnica =
+
+En su primera versión implementaremos 6 cápsulas temáticas.
+
+Las actividades disponibles en cada cápsula son:
+
+* un segmento de video seleccionado de 1 minuto.
+* una experiencia lúdica de repaso
+* flashcards de repaso espaciado
+
+Para hacer posible que los juegos y el sistema de flashcards sean genéricos para cualquier cápsula, se requiere de los siguientes insumos por cada cápsula.
+
+# archivo de video (ogv)
+# archivo de subtítulos (srt)
+# planilla de vocablos seleccionados (csv)
+# para cada vocablo al menos una imagen (png o similar)
+
+Cada cápsula tiene, por ejemplo, la siguiente representación en el sistema de archivos:
+
+ -/
+ -/Video
+ -/Video/1.ogv
+ -/Video/1.srt
+ -/Vocab/1.csv
+ -/Imagen/1/
+ -/Audio/1/
+
+= Cronograma de Trabajo =
+
+* Prototipo funcional //alfa// **primera semana de Diciembre**
+* Versión completa para pruebas //beta// **primera semana de Enero**
+* Versión final //producción// **primera semana de Febrero**
+
+| |=Diciembre|=Enero|=Febrero|
+|=Primera Entrega|//Alfa//| | |
+|=Segunda Entrega| |//Beta//|  |
+|=Entrega Final| | |//Producción//  |
