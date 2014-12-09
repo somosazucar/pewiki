@@ -2,7 +2,15 @@
 
 //(el nombre es provisorio)//
 
+Versión Actual: 0.1 (Alfa)
+
 Licencia: GPLv3
+
+= Paquetes de Instalación =
+
+Empaquetado para Fedora 11:
+
+[[peru_learns_english_0.1.zip]]
 
 = Herramientas de Coordinación =
 
@@ -16,11 +24,15 @@ Es el lugar para dialogar entre los diferentes actores que desarrollan y usan el
 
 [[https://groups.google.com/forum/#!forum/english-for-life-peru|Grupo de discusión]]
 
-== Repositorio de código ==
+== Repositorio de Fuentes ==
 
 Los desarrolladores almacenan todas las versiones en este recurso. Es el lugar para contribuir con código y contenidos.
 
 https://github.com/icarito/english-for-life
+
+La última versión siempre se puede obtener de: 
+
+[[https://github.com/icarito/english-for-life/archive/master.zip]]
 
 = Bocetos de Diseño de Experiencia de Usuario =
 
