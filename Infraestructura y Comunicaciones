@@ -2,7 +2,7 @@ El equipo de infraestructura administra los servidores y servicios de la comunid
 
 Actualmente el equipo mantiente los siguientes servicios:
 
-* Lista de correo //todos[arroba]somosazucar.org//
+* Lista de correo [[http://lists.sugarlabs.org/listinfo/sugar-sur|sugar-sur(arroba)lists.sugarlabs.org]]
 * Sistema de seguimiento de tareas [[Infraestructura/Tareas|tareas.somosazucar.org]]
 * Este wiki
 * Servicios de la [[http://network.sugarlabs.org/|Red Azúcar]] ([[http://network-testing.sugarlabs.org/|-testing]]|[[http://network-devel.sugarlabs.org/|-devel]]).
