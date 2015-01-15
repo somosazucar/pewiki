@@ -1,6 +1,6 @@
 **"Peru Learns English"** es un sistema de aprendizaje de inglés.
 
-Versión Actual: 0.1 (Alfa)
+Versión Actual: 0.2 (Beta) (Lanzado el 15 de Enero de 2015)
 
 Licencia: GPLv3
 
@@ -8,14 +8,14 @@ Licencia: GPLv3
 
 Empaquetado para Fedora 11:
 
-[[+download/peru_learns_english_0.1.tar.gz]]
+[[+download/peru_learns_english-0.2.zip]]
 
 == Cómo instalar ==
 
 # Este archivo debe ser descargado a la XO, ya sea por Internet o mediante una USB. La carpeta comprimida contiene los paquetes de instalación nativos de Fedora.
-# Se puede descomprimir la carpeta con el comando ##tar xzvf peru_learns_english_0.1.zip## . Esto debe hacerse desde una terminal.
-# Se debe ejecutar el script de instalación ##sh ./instalar.sh## . A continuación se completará la instalación (puede demorar unos minutos).
-# Aparecerá un ícono de aplicación en la sección “Educación” del menú principal de Gnome. Ahora está listo para probar la versión alfa de Perú Learns English.
+# Se puede descomprimir el archivo desde el gestor de archivos o desde la terminal con el comando ##unzip##.
+# Se debe ejecutar el script ##instalar.sh##. A continuación se completará la instalación (puede demorar unos minutos).
+# Aparecerá un ícono de aplicación en la sección “Educación” del menú principal de Gnome. Ahora está listo para probar Perú Learns English.
 
 = Herramientas de Coordinación =
 
@@ -45,20 +45,6 @@ La última versión en desarrollo siempre se puede obtener de:
 
 [[Guia_de_Estilo_PLE_V2014-12.pdf]]
 
-== Bocetos de Diseño de Experiencia de Usuario ==
-
-== Reproductor de Video ==
-
-{{reproductor.jpg}}
-
-== Ensayo con Flashcards ==
-
-{{keywords.jpg}}
-
-== Actividad Lúdica ==
-
-{{juego.jpg}}
-
 = Especificación Técnica =
 
 En su primera versión implementaremos 6 cápsulas temáticas.
@@ -67,29 +53,14 @@ Las actividades disponibles en cada cápsula son:
 
 * un segmento de video seleccionado de 1 minuto.
 * una experiencia lúdica de repaso
-* flashcards de repaso espaciado
+* flashcards para repaso espaciado
 
 Para hacer posible que los juegos y el sistema de flashcards sean genéricos para cualquier cápsula, se requiere de los siguientes insumos por cada cápsula.
-
-# archivo de video (ogv)
-# archivo de subtítulos (srt)
-# planilla de vocablos seleccionados (csv)
-# para cada vocablo al menos una imagen (png o similar)
-
-Cada cápsula tiene, por ejemplo, la siguiente representación en el sistema de archivos:
-
- -/
- -/Video
- -/Video/1.ogv
- -/Video/1.srt
- -/Vocab/1.csv
- -/Imagen/1/
- -/Audio/1/
 
 = Cronograma de Trabajo =
 
 * Prototipo funcional //alfa// **primera semana de Diciembre**
-* Versión completa para pruebas //beta// **primera semana de Enero**
+* Versión completa para pruebas //beta// **segunda semana de Enero**
 * Versión final //producción// **primera semana de Febrero**
 
 | |=Diciembre|=Enero|=Febrero|
