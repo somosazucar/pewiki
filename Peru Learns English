@@ -8,14 +8,13 @@ Licencia: GPLv3
 
 Empaquetado para Fedora 11:
 
-[[+download/peru_learns_english-0.2.zip]]
+[[http://somosazucar.org/~icarito/peru_learns_english-0.2.zip]]
 
 == Cómo instalar ==
 
-# Este archivo debe ser descargado a la XO, ya sea por Internet o mediante una USB. La carpeta comprimida contiene los paquetes de instalación nativos de Fedora.
-# Se puede descomprimir el archivo desde el gestor de archivos o desde la terminal con el comando ##unzip##.
-# Se debe ejecutar el script ##instalar.sh##. A continuación se completará la instalación (puede demorar unos minutos).
-# Aparecerá un ícono de aplicación en la sección “Educación” del menú principal de Gnome. Ahora está listo para probar Perú Learns English.
+Descargue la guía de instalación: [[Guia_de_Instalacion.pdf]]
+
+(para Fedora 11)
 
 = Herramientas de Coordinación =
 
