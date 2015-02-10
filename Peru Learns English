@@ -1,6 +1,6 @@
 **"Peru Learns English"** es un sistema de aprendizaje de inglés.
 
-Versión Actual: 0.3 (Beta 2) (Lanzado el 3 de Febrero de 2015)
+Versión Actual: 0.9 ("producción") (Lanzado el 10 de Febrero de 2015)
 
 Licencia: GPLv3
 
@@ -8,7 +8,7 @@ Licencia: GPLv3
 
 Empaquetado para Fedora 11:
 
-[[http://somosazucar.org/~icarito/peru_learns_english_0.3_BETA2.zip]]
+[[http://somosazucar.org/~icarito/peru_learns_english_final.zip]]
 
 == Cómo instalar ==
 
@@ -41,20 +41,6 @@ https://github.com/icarito/english-for-life
 La última versión en desarrollo siempre se puede obtener de: 
 
 [[https://github.com/icarito/english-for-life/archive/master.zip]]
-
-= Guía de Estilo =
-
-[[Guia_de_Estilo_PLE_V2014-12.pdf]]
-
-= Especificación Técnica =
-
-En su primera versión implementaremos 6 cápsulas temáticas.
-
-Las actividades disponibles en cada cápsula son:
-
-* un segmento de video seleccionado de 1 minuto.
-* una experiencia lúdica de repaso
-* flashcards para repaso espaciado
 
 = Cronograma de Trabajo =
 
