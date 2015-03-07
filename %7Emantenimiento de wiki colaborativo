@@ -1,0 +1,1 @@
+La wiki de Laboratorios Azúcar se sostiene sobre un backend en Mercurial. Cuando se editan las fuentes directamente en el servidor, este es el usuario que realiza la edición. (Por ejemplo, para resolver un conflicto).
