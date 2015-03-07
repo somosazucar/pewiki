@@ -1,0 +1,59 @@
+{{Note/important|Versión archivada| Esta versión está archivada como histórico. Profavor use siempre la [[Proyecto_Piloto_Hexoquinasa/Instalar|última versión]].}}
+
+{{Note/important|ADVERTENCIA|HEXOQUINASA y la RED AZÚCAR son proyectos de SOFTWARE LIBRE los cuales están en su fase de desarrollo. Este software es experimental y usted por participar forma parte de un PROYECTO PILOTO.
+
+Por favor lea detalladamente los [[Red_Azúcar#Términos de Uso|Términos de Uso]].}}
+
+== Descarga ==
+
+Puedes descargar la versión actual en desarrollo: 0.5 ALFA 
+<br>''(descargar ambos archivos)''<br>
+
+=== Para laptops XO-1 (1GB) ===
+
+[http://download.sugarlabs.org/hexoquinasa/piloto/xo1/hxp7.img hxp7.zd]<br>
+
+[http://download.sugarlabs.org/hexoquinasa/piloto/xo1/fs.zip fs.zip]
+
+=== Para laptops XO-1.5 (2GB) ===
+
+[http://download.sugarlabs.org/hexoquinasa/piloto/xo1.5/hxp7.zd hxp7.zd]<br>[http://download.sugarlabs.org/hexoquinasa/piloto/xo1.5/fs.zip fs.zip]
+
+''Precaución:'' ambos archivos <code>fs.zip</code> son diferentes.
+
+== Instalar ==
+
+Siga las instrucciones para instalar:
+
+=== Imagen XO ===
+
+* Guarde el archivo <code>'''''hxp7'''''</code> al directorio raiz de una memoria USB.
+* Guarde el archivo <code>'''''fs''.zip'''</code> al directorio raiz de una memoria USB.
+[[Archivo:gamekeys.jpg|right|teclas de juego]]
+* Apague la XO. 
+* Inserte su memoria USB.
+* Encienda la XO y mantenga presionadas las cuatro teclas de juego ubicadas al costado derecho inferior de la pantalla.
+* La XO procederá a instalar HEXOQUINASA.
+* La XO se reiniciará y preguntará su nombre y color.
+
+=== Paquetes ===
+
+Si deseas evitar formatear la computadora, puedes instalar paquetes desde los repositorios [http://wiki.sugarlabs.org/go/Community/Distributions/Sweets_Distribution Sweets Distribution] los cuales están disponibles para [http://wiki.sugarlabs.org/go/Platform_Team/Harmonic_Distribution/Supported_platforms#Map algunas plataformas] por ejemplo Ubuntu.
+
+* [http://wiki.sugarlabs.org/go/Community/Distributions/Sweets_Distribution#Installation Instala] el paquete <code>'''sweets-desktop'''</code> desde el repositorio de Sweets <code>'''[http://wiki.sugarlabs.org/go/Sweets_Distribution#Installation Factory]'''</code>;
+* Sigue las [http://wiki.sugarlabs.org/go/Community/Distributions/Sweets_Distribution#Usage instrucciones de uso] para ejecutar Sugar;
+* [http://wiki.sugarlabs.org/go/Platform_Team/Sweets_Distribution/Factory/Features#Sugar_Network_integration Encienda] la integración RED AZÚCAR en el entorno Sugar "Mis Ajustes".
+
+== Temas por resolver ==
+* El procedimiento para crear un nuevo recurso será rediseñado en la próxima entrega.
+* El ícono de Ideas no ha sido reemplazado en la ventana de diálogo "Nuevo recurso".
+* La ventana "Nuevo proyecto" requiere que todos los campos sean llenados y falla sin indicar error alguno si algún campo es omitido.
+* Los nuevos proyectos no aparecen listados en forma instantánea.
+* Únicamente el autor original puede editar proyectos.
+* Los nombres de las actividades se encuentran en inglés.
+* Aún no se han incluído todas las actividades de Hexoquinasa. Empezando en esta entrega, solo se preinstalarán actividades disponibles a través de la Red Azúcar. Esperamos que toda la selección de actividades de Hexoquinasa estará disponible durante el próximo ciclo de actualización.
+
+
+== Notas de release ==
+
+Serán enviadas a la lista de correos y enlazadas aquí.

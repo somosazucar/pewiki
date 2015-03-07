@@ -1,0 +1,138 @@
+= Resumen de sintaxis
+
+Aquí se describe brevemente la forma de escribir en este Wiki.
+También hay una [[Markup2|descripción más detallada]].
+
+Secciones:
+[[#heading|Encabezados]],
+[[#emphasis|Resaltados]],
+[[#punctuation|Puntuación y Símbolos]],
+[[#paragraph|Párrafos]],
+[[#list|Listas]],
+[[#preformat|Texto preformateado]],
+[[#syntax|Sintaxis]],
+[[#link|Enlaces]],
+[[#image|Imágenes]],
+[[#table|Tablas]]
+
+
+{{#heading}}
+[[Markup2#heading|Encabezados]]:
+|=Código                       |=Resulta (simulado) |=Comentario        |
+|{{{== Large Heading (h2)}}}   |Large Heading (h2)   |Rendered big    |
+|{{{=== Medium Heading (h3)}}} |Medium Heading (h3)  |Rendered medium |
+|{{{==== Small Heading (h4)}}} |Small Heading (h4)   |Rendered small  |
+
+{{#emphasis}}
+[[Markup2#emphasis|Emphasis]]:
+|=Código                        |=Resulta   |=Comentario               |
+|{{{##Monospace text##}}}       |##Monospace text##       |
+|{{{//Italic text//}}}          |//Italic text//          |
+|{{{**Bold text**}}}            |**Bold text**            |Use sparingly          |
+|{{{**//Bold-italic text//**}}} |**//Bold-italic text//** |
+|{{{//**Italic-bold text**//}}} |//**Italic-bold text**// |Same as previous       |
+|{{{{{{Monospace no-wiki}}}}}}  |{{{Monospace no-wiki}}}  |Inline mono, no format |
+|{{{----}}}                     |___________________      |Horizontal line        |
+
+{{#punctuation}}
+[[Markup2#punctuation|Puntuación y Símbolos]]:
+|=Código          |=Resulta   |=HTML |
+|{{{Go...home}}}  |Go...home  |&nellip; |
+|{{{Go--home}}}   |Go--home   |&ndash;  |
+|{{{Go---home}}}  |Go---home  |&mdash;  |
+|{{{Go----home}}} |Go----home |
+|{{{Go~home}}}    |Go~home    |&nbsp;   |
+|{{{Go\~home}}}   |Go\~home   |"~"      |
+|{{{Go~~home}}}   |Go~~home   |&sim;    |
+|{{{Go(C)home}}}  |Go(C)home  |&copy;   |
+|{{{Go-->home}}}  |Go-->home  |&rarr;   |
+|{{{Go<--home}}}  |Go<--home  |&larr;   |
+|{{{Go(R)home}}}  |Go(R)home  |&reg;    |
+|{{{Go(TM)home}}} |Go(TM)home |&trade;  |
+|{{{Go%%home}}}   |Go%%home   |&permil; |
+|{{{Go``home}}}   |Go``home   |&ldquo;  |
+|{{{Go''home}}}   |Go''home   |&rdquo;  |
+|{{{Go,,home}}}   |Go,,home   |&bdquo;  |
+
+{{#paragraph}}
+[[Markup2#paragraph|Párrafos]]:
+|=Código                             |=Resulta               |=Comentario                    |
+|{{{Concatenate}}}\\{{{adjoining!}}} |Concatenate adjoining! |Concatenated and wrap       |
+|{{{Line 1 stuff.}}}\\{{{ }}}\\{{{line 3 stuff.}}} |Line 1 stuff.\\ \\line 3 stuff.      |Empty line between          |
+|{{{Force\\linebreak}}}              |Force\\ \\linebreak    |Forced '{{{\\}}}' linebreak |
+
+{{#list}}
+[[Markup2#list|Listas]]:
+|=Código                      |=Resulta (simulado) |=Comentario       |
+|{{{* First}}}\\{{{* Second}}}|* First\\* Second    |Unordered list |
+
+{{#preformat}}
+[[Markup2#preformat|Texto preformateado]]:
+|=Markup |=Resulta (simulado) |=Comentario                |
+|{{{{{{#!text}}}\\{{{Block text}}}\\{{{preformatted}}}\\{{{monospace}}}\\{{{syntax highlight}}}\\{{{}}}}}} |Block text\\preformatted\\monospace\\syntax highlight|No Wiki formats or links.\\Syntax selected by optional\\'#!text', '#!c', '#!Fortran' or ...\\http://pygments.org/docs/lexers/#special-lexers|
+|{{{> Joe: Beer is Best!}}}\\{{{>> Bob: Wine is refined}}} |{{{| Joe: Beer is Best!}}}\\{{{|| Bob: Wine is refined}}} |Conversation block |
+
+{{#link}}
+[[Markup2#link|Enlaces]]:
+|=Código                                    |=Resulta                             |
+|{{{[[Markup2]]}}}                          |[[Markup2]]                          |
+|{{{[[Markup2|Markup details]]}}}           |[[Markup2|Markup details]]           |
+|{{{[[Markup2#emphasis]]}}}                 |[[Markup2#emphasis]]                 |
+|{{{[[Markup2#emphasis|Markup emphasis]]}}} |[[Markup2#emphasis|Markup emphasis]] |
+|{{{[[path/filename.hat]]}}}                |[[path/filename.hat]]                |
+|{{{[[chapter_1/section_2#par3]]}}}         |[[chapter_1/section_2#par3]]         |
+|{{{[[#test]]}}}                            |[[#test]]                            |
+|{{{[[#test|On page link]]}}}               |[[#test|On page link]]               |
+|{{{[[#5|[5] ]] Footnote}}}                 |[[#5|[5] ]] Footnote                 |
+|{{{http://sheep.art.pl}}}                  |http://sheep.art.pl                  |
+|{{{[[http://sheep.art.pl]]}}}              |[[http://sheep.art.pl]]              |
+|{{{[[http://sheep.art.pl|Sheep]]}}}        |[[http://sheep.art.pl|Sheep]]        |
+|{{{[[Home|{{development.png}}]]}}}         |[[Home|{{development.png}}]]         |
+|{{{MarkupSummary (CamelCase enabled)}}}    |MarkupSummary (CamelCase enabled)    |
+|{{{{{#5}} [5] Footnote anchor}}}           |{{#5}} [5] Footnote anchor           |
+
+{{#image}}
+[[Markup2#image|Imágenes]]:
+|=Código                                     |=Resulta                              |
+|{{{Inline {{development.png}} image}}}      |Inline {{development.png}} image      |
+|{{{Inline {{development.png|Logo}} image}}} |Inline {{development.png|Logo}} image |
+|{{{Linked [[http://hatta-wiki.org|{{development.png}}]] image}}} |Linked [[http://hatta-wiki.org|{{development.png}}]] image |
+|{{{**{{development.png}}** Left float}}}    |**{{development.png}}** Left float    |
+|{{{//{{development.png}}// Right float}}}   |//{{development.png}}// Right float   |
+|{{{Smiley :) faces}}}                       |Smiley :) faces                       |
+
+----
+{{#table}}
+== Tablas
+
+//Nunca// use tablas para diseñar la página!
+
+Pending features (wish list?):
+* Table alignment within page
+* Cell alignment within table
+* Row and column spans
+* Lists within cells
+
+{{{#!text
+|Headers |=Column A|=Column B|=Column C|
+|=Row 1  |Cell A1  |Cell B1  |Cell C1  |
+|=Row 2  |Cell A2  |Cell B2  |
+|=Row 3  |Cell A3  |Cell B3  |Cell C3  |
+}}}
+
+|Headers |=Column A|=Column B|=Column C|
+|=Row 1  |Cell A1  |Cell B1  |Cell C1  |
+|=Row 2  |Cell A2  |Cell B2  |
+|=Row 3  |Cell A3  |Cell B3  |Cell C3  |
+
+{{{#!text
+|=Line Hdr\\Break Hdr|=Column //A//|Italic //B//|=Column C|
+|Row 1 |Bold **A1**|Italic //B1//|Cell C1|
+|=Row 2|Line A2\\Break A2|  |Link [[#list|C2]]|
+|=Row 3|{{{A3= Bar}}}    |Bold **B3**|
+}}}
+
+|=Line Hdr\\Break Hdr|=Column //A//|Italic //B//|=Column C|
+|Row 1 |Bold **A1**|Italic //B1//|Cell C1|
+|=Row 2|Line A2\\Break A2|  |Link [[#list|C2]]|
+|=Row 3|{{{A3= Bar}}}    |Bold **B3**|

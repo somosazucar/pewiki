@@ -1,0 +1,27 @@
+El equipo de infraestructura administra los servidores y servicios de la comunidad.
+
+Actualmente el equipo mantiente los siguientes servicios:
+
+* Lista de correo //todos[arroba]somosazucar.org//
+* Sistema de seguimiento de tareas [[Infraestructura/Tareas|tareas.somosazucar.org]]
+* Este wiki
+* Servicios de la [[http://network.sugarlabs.org/|Red Azúcar]] ([[http://network-testing.sugarlabs.org/|-testing]]|[[http://network-devel.sugarlabs.org/|-devel]]).
+
+Servidor "enterprise" (cuya misión es explorar nuevos mundos...) es gentilmente contribuído por Klaus.
+
+== Equipo ==
+
+El equipo actualmente está compuesto por 
+* [[~kaametza]]
+* [[~icarito]] //(sysadmin)//
+* [[~ignacio]] //(sysadmin)//
+
+Los //sysadmin// tienen acceso de superusuario en al menos una máquina.
+
+== Directivas de un sysadmin
+# Proteger al inocente
+# Defender la virtud
+# Evitar reiniciar los servidores
+
+Referencia:
+[[http://wiki.sugarlabs.org/go/Infrastructure_Team#Sysop_Prime_Directives|Wiki de Sugar Labs]]
