@@ -8,13 +8,20 @@ Licencia: GPLv3
 
 [[http://somosazucar.org/~icarito/ple/Docs/presentation.html|Presentación en línea.]]
 
-= Paquetes de Instalación =
+= Fuentes =
 
-Empaquetado para Fedora 11:
+* [[https://github.com/icarito/peru-learns-english/|Repositorio en GitHub]]
+* [[https://github.com/icarito/peru-learns-english/archive/master.zip|ZIP descarga directa]]
+
+https://github.com/icarito/peru-learns-english/archive/master.zip
+
+= Paquetes de Instalación para Laptops XO 1.5 Azules (Secundaria, Perú) =
+
+Para Fedora 11:
 
 [[http://somosazucar.org/~icarito/peru_learns_english_RC3.zip]]
 
-== Cómo instalar ==
+== Como instalar ==
 
 Descargue la guía de instalación: [[+download/Guia_de_Instalacion.pdf]]
 
