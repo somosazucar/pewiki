@@ -8,8 +8,6 @@ Si usted desea saber más sobre los proyectos activos, viste la página de [[Pro
 
 Los contribuidores a los proyectos de Laboratorios Azúcar tienen esta herramienta disponible.
 
-La plataforma cuenta con una pasarela de correo electrónico lo cual permite recibir notificaciones de las tareas en las que los usuarios se han declarado interesados.
-
 
 Visite la herramienta y los proyectos disponibles en:
 
@@ -18,6 +16,10 @@ http://tareas.somosazucar.org/
 Si Ud. desea gestionar sus proyectos aquí, póngase en contacto.
 
 == Pasarela de Correo Electrónico ==
+
+La plataforma cuenta con una pasarela de correo electrónico lo cual permite recibir notificaciones de las tareas en las que los usuarios se han declarado interesados.
+
+** Usted puede responder a los mensajes del sistema** y, siempre que tenga usuario registrado, su mensaje será asociado al //issue// correspondiente.
 
 La dirección tareas[arroba]somosazucar.org se encuentra asociada unicamente a un proyecto por vez, pero se pueden crear otras direcciones.
 
