@@ -16,3 +16,9 @@ Visite la herramienta y los proyectos disponibles en:
 http://tareas.somosazucar.org/
 
 Si Ud. desea gestionar sus proyectos aquí, póngase en contacto.
+
+== Pasarela de Correo Electrónico ==
+
+La dirección tareas[arroba]somosazucar.org se encuentra asociada unicamente a un proyecto por vez, pero se pueden crear otras direcciones.
+
+Es un registro //cron// en el usuario //roundup// del servidor //enterprise//.
