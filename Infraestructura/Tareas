@@ -1,5 +1,9 @@
 == Sistema de Seguimiento de Tareas ==
 
+Esta página documenta la implementación del sistema de seguimiento de tareas *Roundup*.
+
+Si usted desea saber más sobre los proyectos activos, viste la página de [[Proyectos]].
+
 **{{tareas.png}}** http://tareas.somosazucar.org/ es un sistema de seguimiento que permite a la comunidad saber qué tareas hay pendientes, los objetivos de desarrollo y también qué fallas pueden haberse presentado.
 
 Los contribuidores a los proyectos de Laboratorios Azúcar tienen esta herramienta disponible.
