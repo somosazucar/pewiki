@@ -1,3 +1,30 @@
-Distribución Libre
+= Huayruro GNU/Linux =
 
-* Cson soporte para laptops convencionales tipo PC
+Huayruro es un esfuero para curar y localizar una distribución basada en Debian que incluya Sugar y que esté especialmente confeccionada para ser desplegada en el contexto de la escuela pública y rural sudamericana.
+
+Huayruro es un proyecto liderado por una comunidad de voluntarios, que se inició por solicitud de DIGETE / Ministerio de Eduación de Perú, para proveer de un sistema operativo apropiado para el despliegue en las laptop del proyecto ODATIC.
+
+ODATIC llevará computadoras a niños en zonas remotas del Perú.
+
+== Detalles Técnicos ==
+
+* El desarrollo se lleva a cabo ''upstream'' (con pocas excepciones)
+* Enfocado en localización a lenguas nativas y curación de la experiencia de usuario
+* A incluir Sugar 0.106
+* A incluir XFCE
+* Buscaremos ofrecer una experiencia consistente en ambos entornos
+* Debe funcionar en máquinas netbooks educativas tipo Classmate
+* Basado en Debian 8 "Jessie"
+
+== Herramientas de Colaboración ==
+
+* Chat: Huayruro se conersa en IRC en los canales [[http://chat.somosazucar.org/|#somosazucar]] y #sugar de Freenode.
+* Seguimiento de tareas: http://tareas.somosazucar.org/huayruro/
+* Wiki upstream en inglés: https://wiki.debian.org/SugarBlend/Huayruro
+* Lista de correo: No tenemos una lista pero el desarrollo se podría conversar en la [[https://lists.alioth.debian.org/mailman/listinfo/pkg-sugar-devel|lista del equipo Sugar de Debian]].
+
+== Colaboradores ==
+
+* El equipo [[https://wiki.debian.org/SugarTeam|Debian Sugar]]
+* El equipo de [[http://wiki.sugarlabs.org/go/Platform_Team/Sugar_Network/API|Plataformas de Sugar Labs]]
+* El equipo [[http://somosazucar.org/|SomosAzucar]]
