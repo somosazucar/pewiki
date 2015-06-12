@@ -1,5 +1,13 @@
 {{nlng.png}}
 
+== Primera Imagen de Pruebas ==
+
+|Modelo de laptop XO|=Archivos v200 BETA4\\(Junio 2015)|
+|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp200.zd|hxp200.zd]]\\[[http://people.sugarlabs.org/~icarito/xo1.5/fs.zip|fs.zip]]|
+
+* Incluye integración de soporte de lengua Awajún
+* Incluye panel de control para desactivar la Red Azúcar
+
 == Estado Actual del soporte de Lenguas Nativas ==
 
 # Español [[http://translate.sugarlabs.org/es/|72 proyectos, 100%]]
