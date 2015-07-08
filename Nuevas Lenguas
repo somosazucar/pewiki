@@ -10,6 +10,22 @@ Además de lo incluído en la primera imagen, esta imagen incluye:
 * Incluye un selector de lenguas en el asistente de primer arranque
 * Integra las traducciones presentes en el sistema pootle a la fecha (más algunas recibidas por correo electrónico). Principalmente la lengua Aymara.
 
+== Instalar ==
+
+[[http://network.sugarlabs.org/artifacts/download/11f88584ae7211e2bee8525400e4dcb5 |Guía de Instalación v0.9]]
+
+En resumen:
+
+=== Imagen XO ===
+
+* Guarde los archivos {{{hxp###}}} y {{{fs.zip}}} en el directorio raiz de una memoria USB.
+//{{gamekeys.jpg|teclas de juego}}//
+* Apague la XO. 
+* Inserte su memoria USB en la XO.
+* Encienda la XO y mantenga presionadas las cuatro "teclas de juego" ubicadas al costado derecho inferior de la pantalla.
+* La XO procederá a instalar HEXOQUINASA.
+* La XO se reiniciará y preguntará su nombre y color.
+
 == Primera Imagen de Pruebas ==
 
 |Modelo de laptop XO|=Archivos v200 BETA4\\(Junio 2015)|
@@ -27,9 +43,13 @@ Además de lo incluído en la primera imagen, esta imagen incluye:
 
 Si deseas colocar tu lengua aquí, consulta el [[Manual de Traducción de Sugar]].
 
-== Documento de trabajo ==
+== Soporte para Nuevas Lenguas en XO/Sugar ==
 
-//[[https://azucar.etherpad.mozilla.org/nuevas-lenguas|en redacción]]// 
+Proyecto desarrollado en colaboración con el Ministerio de Educación de Perú (DIGETE) y el equipo de internacionalización de Sugar Labs.
+
+=== Objetivo ===
+
+Brindar a los alumnos usuarios de laptops XO un entorno de aprendizaje Sugar apropiado a su contexto cultural, especialmente, en su propia lengua.
 
 === Herramientas de colaboración ===
 
