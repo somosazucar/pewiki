@@ -1,5 +1,15 @@
 {{nlng.png}}
 
+
+== Primera Imagen de Pruebas ==
+
+|Modelo de laptop XO|=Archivos v202 BETA5\\(Julio 2015)|
+|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp202/hxp202.zd|hxp202.zd]]\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp202/fs.zip|fs.zip]]|
+
+Además de lo incluído en la primera imagen, esta imagen incluye:
+* Incluye un selector de lenguas en el asistente de primer arranque
+* Integra las traducciones presentes en el sistema pootle a la fecha (más algunas recibidas por correo electrónico). Principalmente la lengua Aymara.
+
 == Primera Imagen de Pruebas ==
 
 |Modelo de laptop XO|=Archivos v200 BETA4\\(Junio 2015)|
