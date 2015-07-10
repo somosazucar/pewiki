@@ -1,14 +1,15 @@
 {{nlng.png}}
 
 
-== Primera Imagen de Pruebas ==
+== Imagen "Final" ==
 
-|Modelo de laptop XO|=Archivos v202 BETA5\\(Julio 2015)|
-|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp202/hxp202.zd|hxp202.zd]]\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp202/fs.zip|fs.zip]]|
+|Modelo de laptop XO|=Archivos v203\\(Julio 2015)|
+|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp203/hxp203.zd|hxp203.zd]]\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp203/fs.zip|fs.zip]]|
 
-Además de lo incluído en la primera imagen, esta imagen incluye:
-* Incluye un selector de lenguas en el asistente de primer arranque
-* Integra las traducciones presentes en el sistema pootle a la fecha (más algunas recibidas por correo electrónico). Principalmente la lengua Aymara.
+Además de lo incluído en la primera imagen y segunda imagen:
+* Se traducen textos de la sección "complementos"
+* Integra sistema de desbloqueo. (La laptop debe estar enchufada a la corriente eléctrica para proceder a desbloquearse).
+
 
 == Instalar ==
 
@@ -26,6 +27,25 @@ En resumen:
 * La XO procederá a instalar HEXOQUINASA.
 * La XO se reiniciará y preguntará su nombre y color.
 
+== Fuentes ==
+
+Para construir una imagen Hexoquinasa se requiere de un sistema Fedora 14 junto con los paquetes de la distribución referencial [[http://wiki.sugarlabs.org/go/Deployment_Platform/XO_reference_distribution|"Deployment Platform"]].
+
+Las fuentes de Hexoquinasa específicamente se pueden encontrar en:
+http://people.sugarlabs.org/~icarito/hexoquinasa_build/
+
+En este directorio se encuentra también los módulos de '''olpc-os-builder''' parchados para este caso.
+
+Para nuevos desarrollos se recomienda partir de un sistema operativo más reciente.
+
+== Segunda Imagen de Pruebas ==
+
+|Modelo de laptop XO|=Archivos v202 BETA5\\(Julio 2015)|
+|=XO-1.5 (2GB)|//(descargar ambos archivos)//\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp202/hxp202.zd|hxp202.zd]]\\[[http://people.sugarlabs.org/~icarito/xo1.5/hxp202/fs.zip|fs.zip]]|
+
+Además de lo incluído en la primera imagen, esta imagen incluye:
+* Incluye un selector de lenguas en el asistente de primer arranque
+* Integra las traducciones presentes en el sistema pootle a la fecha (más algunas recibidas por correo electrónico). Principalmente la lengua Aymara.
 == Primera Imagen de Pruebas ==
 
 |Modelo de laptop XO|=Archivos v200 BETA4\\(Junio 2015)|
@@ -34,7 +54,7 @@ En resumen:
 * Incluye integración de soporte de lengua Awajún
 * Incluye panel de control para desactivar la Red Azúcar
 
-== Estado Actual del soporte de Lenguas Nativas ==
+== Estado Inicial del soporte de Lenguas Nativas ==
 
 # Español [[http://translate.sugarlabs.org/es/|72 proyectos, 100%]]
 # Aymara [[http://translate.sugarlabs.org/ayc/|66 proyectos, 93%]]
