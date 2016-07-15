@@ -1,0 +1,9 @@
+Currently Sugar is lacking when compared with a Desktop Environment; 
+
+It works in non standard ways:
+
+* Non standard startup notification
+* No way to launch desktop applications
+* No (simple) way to access the Journal from filesystem
+* No notification area
+* Notification system needs work
