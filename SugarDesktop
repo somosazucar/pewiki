@@ -7,3 +7,4 @@ It works in non standard ways:
 * No (simple) way to access the Journal from filesystem
 * No notification area
 * Notification system needs work
+* Sugar doesn't use the system wallpaper
