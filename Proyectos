@@ -13,13 +13,15 @@
 ** Fase: Beta. Cinco Juegos lanzados en la [[http://activities.sugarlabs.org/es-ES/sugar/search?q=taller&cat=all|Biblioteca de Actividades]].
 
 * [[Git para Sugar]]
-** Etapa Actual: Alfa
+** Etapa Actual: Asumido por estudiante [[http://vikramahujagsoc.blogspot.pe/|GSOC 2016]].
 
 * [[Huayruro]] (Distro GNU/Linux + Sugar)
-** Etapa Actual: Prototipo no-funcional
+** Etapa Actual: Congelado
 
 * [[Nuevas Lenguas]] (Quechua, Aymara, Awajún)
-** Etapa Actual: Quz/Aym en estado avanzado. Awajún en proceso.
+** Etapa Actual: Quz/Aym y Awajún entregados.
 
 * [[ClaVi]] (Centro Libre Clara Visión)
 ** Etapa Actual: En ejecución
+
+* [[SugarDesktop]] (Mejoras para Sugar)
