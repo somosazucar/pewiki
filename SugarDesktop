@@ -7,9 +7,15 @@ Goals achieved (merged):
 * Patch to show app icons in Frame
 * Patch to run Sugar Activities outside Sugar
 
+Patches sent:
+
+* Run sugar alongside traditional desktop
+
 Goals to be completed:
 
 * Standard startup notification
 * Support for .desktop for launching applications
+* Drag & Drop into home window
+* Drag & Drop to/from Journal
 * Expose Journal to filesystem
 * Improve notification system
