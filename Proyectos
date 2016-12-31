@@ -3,34 +3,29 @@
 * [[Huayruro]] (Distro GNU/Linux + Sugar)
 ** Etapa Actual: Reactivado Alfa Abril 2017
 
-* [[ClaVi]] (Centro Libre Clara Visión)
+* [[ClaVi]] Centro de Reparación XO 
+** Centro Libre Clara Visión Prototyping 
 ** Etapa Actual: En ejecución
-**Centro de Reparación XO]]
-** Fase: Investigando Documentación Libre disponible (lv)
+** Fase 3: #3Diseñatón0517
 
-* [[Juegos + Talleres de Diseño]]
+* [[Juegos ~ Talleres de Diseño]]
 ** Aurora
 ** Fauno
 ** Votaciones Gráficas
-** [[Peru Learns English]]
-** Etapa Actual: Versión final
+** [[Taller del Artesano]] Fase: Beta. Cinco Juegos lanzados en la [[http://activities.sugarlabs.org/es-ES/sugar/search?q=taller&cat=all|Biblioteca de Actividades]].** [[Peru Learns English]]
 
 * [[Geo-cultivos Reforestales*]]
-** Maya Continental + RA/SN - Etapa Actual: Documentación en Progreso
+** Maya Continental + RA/SN 
+** Etapa Actual: Documentación en Progreso
 ** Fase: Corredor productivo Bajo Tambopata
 
-* [[Proyecto Piloto Hexoquinasa]]
+
+* Herramientas de gestión colaborativa de Proyectos
+** [[Proyecto Piloto Hexoquinasa]]
 ** Fase: [[Hexoquinasa 2]] - Etapa Actual: Implementación desbloqueo
-
-* [[Red Azúcar]]
-** Fase: [[Nuevo Nodo]] - Etapa Actual: "School Network" on R&D + RA operacional
-
-* [[Taller del Artesano]]
-** Fase: Beta. Cinco Juegos lanzados en la [[http://activities.sugarlabs.org/es-ES/sugar/search?q=taller&cat=all|Biblioteca de Actividades]].
-
-* [[Git para Sugar]]
-** Etapa Actual: Asumido por estudiante [[http://vikramahujagsoc.blogspot.pe/|GSOC 2016]].
+** [[Red Azúcar]] Fase: [[Nuevo Nodo]] - Etapa Actual: "School Network" on R&D + RA operacional
+** [[Git para Sugar]] Etapa Actual: Asumido por estudiante [[http://vikramahujagsoc.blogspot.pe/|GSOC 2016]].
 
 * [[Nuevas Lenguas]] (Quechua, Aymara, Awajún)
-** Etapa Actual: Quz/Aym y Awajún entregados.
+** Etapa Actual: Quz/Aym incorporados upstream Awajún pendiente.
 
