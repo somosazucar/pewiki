@@ -1,0 +1,25 @@
+Jappy = Activity for web programming in Python.
+
+
+Bienvenido a la página de la wiki dedicada a la descripción del proyecto de desarrollo y apropiación de Jappy!
+
+
+En Mayo de 2017, Jappy 1 fué anunciado por Sebastian Silva, quien dedicó este esmerado trabajo a su esposa e hijos. Ellos en conjunto idearon Jappy como una herramienta que hiciera fácil y divertido el arte de programar, especialmente video-juegos y especialmente para los más pequeños.
+
+Para testear la versión actual visita: 
+http://people.sugarlabs.org/~icarito/azucarizador/
+
+El predecesor de #Jappy, realizado para la primera iteracion en Chía-Colombia, se llamó "Taller del Artesano" y fué testeado en terreno arrojando como resultado la colección de 4 video-juegos transformadores co-desarrollados con los usuarios de OLPC Chía del proyecto "Transformado" en 2014.
+
+Para testear la primera Colección de video juegos del Taller del Artesano, visita: http://activities.sugarlabs.org/en-US/sugar/collection/artesania
+
+Tres años mas tarde y tras muchas lecciones aprendidas, Jappy se propone como una herramienta óptima para despertar entusiasmo y brindar un soporte pedagógico al proceso de desarrollo de las capacidades requeridas en la programación web.
+
+Jappy 1 tiene como objetivo práctico proveer un ambiente sencillo y atractivo para introducir artísticamente a aprendices tempranos en el arte de programar "Video-Juegos". Como definición sencilla el producto es el resultado de acoplar Java Script con Python, en una Actividad que integra el uso de emojis en varios ejemplos como casos de estudio.
+
+Durante los Talleres de uso de Jappy, se alentará a mentores y aprendices a explorar y modificar los ejemplos. El primer testeado en terreno se realizará en la segunda mitad del año en la Amazonia Peruana con el objetivo de contribuir a la reducción de la brecha tecnológica en la población menor de edad vulnerable de la zona de Buffer entre la Reserva Nacional Tambopata y la Carretera Inter-Oceánica, en zona semi-rural eco-turística y con énfasis en el público femenino.
+
+Para apoyar al equipo de desarrollo o reportar los resultados de tu experiencia, escribe a:
+
+equipoATsomosazucar.org
+
