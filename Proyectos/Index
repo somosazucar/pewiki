@@ -6,10 +6,9 @@
 ** Etapa Actual: #ProjectosEnEjecución+#Diseñatón2017
 
 * Herramientas de gestión colaborativa de Proyectos
-01 [[Proyecto Piloto Hexoquinasa]] Fase: [[Hexoquinasa 2]] - Etapa Actual: Implementación desbloqueo Fase :[[Hexoquinasa 3]] [[Huayruro]] (Distro GNU/Linux + Sugar) Etapa Actual: Reactivado Alfa Abril 2017
+**[[Proyecto Piloto Hexoquinasa]] Fase: [[Hexoquinasa 2]] - Etapa Actual: Implementación desbloqueo Fase :Hexoquinasa 3 AKA [[Huayruro]] (Distro GNU/Linux + Sugar) Etapa Actual: Reactivado Alfa 2017
 02 [[Red Azúcar]] Fase: [[Nuevo Nodo]] - Etapa Actual: "School Network" on R&D + RA operacional
-03 JAPPY - Tool for 🌐 Web-programming games while learning Programming. Supports Python, HTML5, CSS3, Javascript and Markdown. Fase: Testing Beta
-
+03 JAPPY - Herramienta para 🌐 Programción-Web de educa.juegos como metodología de aprendizaje del Arte de la Programación. Supports Python, HTML5, CSS3, Javascript and Markdown. Fase: Testing Beta
 
 * [[educa.juegos]]
 ** Imput [Fase: En Producción]
@@ -27,4 +26,4 @@
 
 * [[Nuevas Lenguas]] (Quechua, Aymara, Awajún)
 ** Etapa Actual: Quz/Aym incorporados upstream Awajún pendiente.
-** Nueva imagen multilingue actualizada propuesta en lista Sugar-Devel.
+** Nueva imagen multilingue incluyendo Guaraní, Muisca y EsseEja propuesto en lista Sugar-Devel.
